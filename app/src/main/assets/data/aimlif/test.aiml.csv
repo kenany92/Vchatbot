@@ -1,0 +1,10 @@
+0,HELLO ARMEL,*,*,Hello World My name is Armel,test.aiml
+0,I LIKE *,*,*,I to like <star/>,test.aiml
+0,WHAT ABOUT MOVIES *,*,*,Do you like comedy <set name="movie"><star/></set> movies,test.aiml
+0,YES,DO YOU LIKE COMEDY AVENGERS MOVIES,*,Nice#Comma I like <get name="movie"/> movies too.,test.aiml
+0,NO,DO YOU LIKE COMEDY AVENGERS MOVIES,*,Ok! But I like comedy movies.,test.aiml
+0,I AM *,*,*,Hello <set name="username"> <star/>! </set>,test.aiml
+0,GOOD NIGHT,*,*,Hi <get name="username"/> Thanks for the conversation!,test.aiml
+0,BONJOUR,*,*,Bonjour. svp quel est votre <set name="topic">nom</set>,test.aiml
+0,*,*,NOM,Bonjour <star/>. Que puis-je faire pour vous aujourd'hui?,test.aiml
+

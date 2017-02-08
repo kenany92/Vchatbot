@@ -1,0 +1,33 @@
+0,1,*,WISKY,Votre commande: #Newline~<uppercase><get name="menu"/> - <get name="complement"/>#Comma <get name="boisson"/> : LION D'OR</uppercase>#Newline~Prix: 2000 FCFA#Newline~<get name="payment_list"/>#Newline<think>#Newline	<set name="boisson_name">LION D'OR</set>#Newline	<set name="topic">choosen_payment</set>#Newline</think>,wisky.aiml
+0,LION D'OR,*,WISKY,<srai>1</srai>,wisky.aiml
+0,LE LION D'OR,*,WISKY,<srai>1</srai>,wisky.aiml
+0,01,*,WISKY,<srai>1</srai>,wisky.aiml
+0,WIS01,*,WISKY,<srai>1</srai>,wisky.aiml
+0,#WIS01,*,WISKY,<srai>1</srai>,wisky.aiml
+0,WIS 01,*,WISKY,<srai>1</srai>,wisky.aiml
+0,WIS 1,*,WISKY,<srai>1</srai>,wisky.aiml
+0,2,*,WISKY,Votre commande: #Newline~<uppercase><get name="menu"/> - <get name="complement"/>#Comma <get name="boisson"/> : FIGTHER</uppercase>#Newline~Prix: 2000 FCFA#Newline~<get name="payment_list"/>#Newline<think>#Newline	<set name="boisson_name">FIGTHER</set>#Newline	<set name="topic">choosen_payment</set>#Newline</think>,wisky.aiml
+0,FIGTHER,*,WISKY,<srai>2</srai>,wisky.aiml
+0,LE FIGTHER,*,WISKY,<srai>2</srai>,wisky.aiml
+0,02,*,WISKY,<srai>2</srai>,wisky.aiml
+0,WIS02,*,WISKY,<srai>2</srai>,wisky.aiml
+0,#WIS02,*,WISKY,<srai>2</srai>,wisky.aiml
+0,WIS 02,*,WISKY,<srai>2</srai>,wisky.aiml
+0,WIS 2,*,WISKY,<srai>2</srai>,wisky.aiml
+0,3,*,WISKY,Votre commande: #Newline~<uppercase><get name="menu"/> - <get name="complement"/>#Comma <get name="boisson"/> : REDBULL</uppercase>#Newline~Prix: 2000 FCFA#Newline~<get name="payment_list"/>#Newline<think>#Newline	<set name="boisson_name">REDBULL</set>#Newline	<set name="topic">choosen_payment</set>#Newline</think>,wisky.aiml
+0,REDBULL,*,WISKY,<srai>3</srai>,wisky.aiml
+0,LE REDBULL,*,WISKY,<srai>3</srai>,wisky.aiml
+0,03,*,WISKY,<srai>3</srai>,wisky.aiml
+0,WIS03,*,WISKY,<srai>3</srai>,wisky.aiml
+0,#WIS03,*,WISKY,<srai>3</srai>,wisky.aiml
+0,WIS 03,*,WISKY,<srai>3</srai>,wisky.aiml
+0,WIS 3,*,WISKY,<srai>3</srai>,wisky.aiml
+0,4,*,WISKY,Votre commande: #Newline~<uppercase><get name="menu"/> - <get name="complement"/>#Comma <get name="boisson"/> : FOFO</uppercase>#Newline~Prix: 2000 FCFA#Newline~<get name="payment_list"/>#Newline<think>#Newline	<set name="boisson_name">FOFO</set>#Newline	<set name="topic">choosen_payment</set>#Newline</think>,wisky.aiml
+0,FOFO,*,WISKY,<srai>4</srai>,wisky.aiml
+0,LE FOFO,*,WISKY,<srai>4</srai>,wisky.aiml
+0,04,*,WISKY,<srai>4</srai>,wisky.aiml
+0,WIS04,*,WISKY,<srai>4</srai>,wisky.aiml
+0,#WIS04,*,WISKY,<srai>4</srai>,wisky.aiml
+0,WIS 04,*,WISKY,<srai>4</srai>,wisky.aiml
+0,WIS 4,*,WISKY,<srai>4</srai>,wisky.aiml
+0,*,*,WISKY,Désolé votre choix ne fait pas partie de la liste. Veuillez reéssayer.#Newline~<get name="biere_list"/>,wisky.aiml

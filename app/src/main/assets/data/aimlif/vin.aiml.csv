@@ -1,0 +1,29 @@
+0,1,*,VIN,Votre commande: #Newline~<uppercase><get name="menu"/> - <get name="complement"/>#Comma <get name="boisson"/> : CHATEAU ROUGE</uppercase>#Newline~Prix: 2000 FCFA#Newline~<get name="payment_list"/>#Newline<think>#Newline	<set name="boisson_name">CHATEAU ROUGE</set>#Newline	<set name="topic">choosen_payment</set>#Newline</think>,vin.aiml
+0,CHATEAU ROUGE,*,VIN,<srai>1</srai>,vin.aiml
+0,01,*,VIN,<srai>1</srai>,vin.aiml
+0,VIN01,*,VIN,<srai>1</srai>,vin.aiml
+0,#VIN01,*,VIN,<srai>1</srai>,vin.aiml
+0,VIN 01,*,VIN,<srai>1</srai>,vin.aiml
+0,VIN 1,*,VIN,<srai>1</srai>,vin.aiml
+0,2,*,VIN,Votre commande: #Newline~<uppercase><get name="menu"/> - <get name="complement"/>#Comma <get name="boisson"/> : CHATEAU BLANC</uppercase>#Newline~Prix: 2000 FCFA#Newline~<get name="payment_list"/>#Newline<think>#Newline	<set name="boisson_name">CHATEAU BLANC</set>#Newline	<set name="topic">choosen_payment</set>#Newline</think>,vin.aiml
+0,CHATEAU BLANC,*,VIN,<srai>2</srai>,vin.aiml
+0,02,*,VIN,<srai>2</srai>,vin.aiml
+0,VIN02,*,VIN,<srai>2</srai>,vin.aiml
+0,#VIN02,*,VIN,<srai>2</srai>,vin.aiml
+0,VIN 02,*,VIN,<srai>2</srai>,vin.aiml
+0,VIN 2,*,VIN,<srai>2</srai>,vin.aiml
+0,3,*,VIN,Votre commande: #Newline~<uppercase><get name="menu"/> - <get name="complement"/>#Comma <get name="boisson"/> : GANDIA</uppercase>#Newline~Prix: 2000 FCFA#Newline~<get name="payment_list"/>#Newline<think>#Newline	<set name="boisson_name">GANDIA</set>#Newline	<set name="topic">choosen_payment</set>#Newline</think>,vin.aiml
+0,GANDIA,*,VIN,<srai>3</srai>,vin.aiml
+0,03,*,VIN,<srai>3</srai>,vin.aiml
+0,VIN03,*,VIN,<srai>3</srai>,vin.aiml
+0,#VIN03,*,VIN,<srai>3</srai>,vin.aiml
+0,VIN 03,*,VIN,<srai>3</srai>,vin.aiml
+0,VIN 3,*,VIN,<srai>3</srai>,vin.aiml
+0,4,*,VIN,Votre commande: #Newline~<uppercase><get name="menu"/> - <get name="complement"/>#Comma <get name="boisson"/> : MATANGO</uppercase>#Newline~Prix: 2000 FCFA#Newline~<get name="payment_list"/>#Newline<think>#Newline	<set name="boisson_name">MATANGO</set>#Newline	<set name="topic">choosen_payment</set>#Newline</think>,vin.aiml
+0,MATANGO,*,VIN,<srai>4</srai>,vin.aiml
+0,04,*,VIN,<srai>4</srai>,vin.aiml
+0,VIN04,*,VIN,<srai>4</srai>,vin.aiml
+0,#VIN04,*,VIN,<srai>4</srai>,vin.aiml
+0,VIN 04,*,VIN,<srai>4</srai>,vin.aiml
+0,VIN 4,*,VIN,<srai>4</srai>,vin.aiml
+0,*,*,VIN,Désolé votre choix ne fait pas partie de la liste. Veuillez reéssayer.#Newline~<get name="biere_list"/>,vin.aiml

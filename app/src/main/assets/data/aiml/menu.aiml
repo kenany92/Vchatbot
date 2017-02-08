@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+
+	<topic name="menu">
+
+		<category>
+			<pattern>PORC BRAISE</pattern>
+			<template><srai>PORC</srai></template>
+		</category>
+
+		<category>
+			<pattern>PORC</pattern>
+			<template><get name="complement_list" /><think><set name="menu" >PORC BRAISE</set><set name="topic">complement</set></think></template>
+		</category>
+
+		<category>
+			<pattern>#MEN01</pattern>
+			<template><srai>PORC</srai></template>
+		</category>
+
+		<category>
+			<pattern>MEN01</pattern>
+			<template><srai>PORC</srai></template>
+		</category>
+
+		<category>
+			<pattern>01</pattern>
+			<template><srai>PORC</srai></template>
+		</category>
+
+		<category>
+			<pattern>1</pattern>
+			<template><srai>PORC</srai></template>
+		</category>
+
+		<category>
+			<pattern>MENU 01</pattern>
+			<template><srai>PORC</srai></template>
+		</category>
+
+		<category>
+			<pattern>MENU 1</pattern>
+			<template><srai>PORC</srai></template>
+		</category>
+
+		<category>
+			<pattern>POULET DG</pattern>
+			<template><srai>POULET</srai></template>
+		</category>
+
+		<category>
+			<pattern>POULET</pattern>
+			<template><get name="complement_list" /><think><set name="menu" >POULET DG</set><set name="topic">complement</set></think></template>
+		</category>
+
+		<category>
+			<pattern>#MEN02</pattern>
+			<template><srai>POULET</srai></template>
+		</category>
+
+		<category>
+			<pattern>MEN02</pattern>
+			<template><srai>POULET</srai></template>
+		</category>
+
+		<category>
+			<pattern>02</pattern>
+			<template><srai>POULET</srai></template>
+		</category>
+
+		<category>
+			<pattern>2</pattern>
+			<template><srai>POULET</srai></template>
+		</category>
+
+		<category>
+			<pattern>MENU 02</pattern>
+			<template><srai>POULET</srai></template>
+		</category>
+
+		<category>
+			<pattern>MENU 2</pattern>
+			<template><srai>POULET</srai></template>
+		</category>
+
+		<category>
+			<pattern>BOUILLON</pattern>
+			<template><get name="ask_drink"/><think><set name="menu" >BOUILLON</set><set name="topic">complement</set></think></template>
+		</category>
+
+		<category>
+			<pattern>BOUILLON DE POMME AU SANGLIER</pattern>
+			<template><srai>BOUILLON</srai></template>
+		</category>
+
+		<category>
+			<pattern>BOUILLON DE POMME</pattern>
+			<template><srai>BOUILLON</srai></template>
+		</category>
+
+		<category>
+			<pattern>#MEN03</pattern>
+			<template><srai>BOUILLON</srai></template>
+		</category>
+
+		<category>
+			<pattern>MEN03</pattern>
+			<template><srai>BOUILLON</srai></template>
+		</category>
+
+		<category>
+			<pattern>03</pattern>
+			<template><srai>BOUILLON</srai></template>
+		</category>
+
+		<category>
+			<pattern>3</pattern>
+			<template><srai>BOUILLON</srai></template>
+		</category>
+
+		<category>
+			<pattern>MENU 03</pattern>
+			<template><srai>BOUILLON</srai></template>
+		</category>
+
+		<category>
+			<pattern>MENU 3</pattern>
+			<template><srai>BOUILLON</srai></template>
+		</category>
+
+		<category>
+			<pattern>BONGO</pattern>
+			<template><get name="complement_list" /><think><set name="menu" >BONGO</set><set name="topic">complement</set></think></template>
+		</category>
+
+		<category>
+			<pattern>BONGO AU MACHOIRON</pattern>
+			<template><srai>BONGO</srai></template>
+		</category>
+
+		<category>
+			<pattern>#MEN04</pattern>
+			<template><srai>BONGO</srai></template>
+		</category>
+
+		<category>
+			<pattern>MEN04</pattern>
+			<template><srai>BONGO</srai></template>
+		</category>
+
+		<category>
+			<pattern>04</pattern>
+			<template><srai>BONGO</srai></template>
+		</category>
+
+		<category>
+			<pattern>4</pattern>
+			<template><srai>BONGO</srai></template>
+		</category>
+
+		<category>
+			<pattern>MENU 04</pattern>
+			<template><srai>BONGO</srai></template>
+		</category>
+
+		<category>
+			<pattern>MENU 4</pattern>
+			<template><srai>BONGO</srai></template>
+		</category>
+
+		<category>
+			<pattern>NDOLE</pattern>
+			<template><get name="complement_list" /><think><set name="menu" >NDOLE</set><set name="topic">complement</set></think></template>
+		</category>
+
+		<category>
+			<pattern>#MEN05</pattern>
+			<template><srai>NDOLE</srai></template>
+		</category>
+
+		<category>
+			<pattern>MEN05</pattern>
+			<template><srai>NDOLE</srai></template>
+		</category>
+
+		<category>
+			<pattern>05</pattern>
+			<template><srai>NDOLE</srai></template>
+		</category>
+
+		<category>
+			<pattern>5</pattern>
+			<template><srai>NDOLE</srai></template>
+		</category>
+
+		<category>
+			<pattern>MENU 05</pattern>
+			<template><srai>NDOLE</srai></template>
+		</category>
+
+		<category>
+			<pattern>MENU 5</pattern>
+			<template><srai>NDOLE</srai></template>
+		</category>
+
+		<category>
+			<pattern>*</pattern>
+			<template>Désolé, <star /> ne fait pas partie du menu. Veuillez faire votre choix ici.
+				~<get name="menu_list" /></template>
+		</category>
+
+	</topic>
+
+</aiml>

@@ -1,0 +1,28 @@
+0,ORANGE,*,CHOOSEN_PAYMENT,<get name="congratulation"/>,payment.aiml
+0,ORANGE MONEY,*,CHOOSEN_PAYMENT,<srai>ORANGE</srai>,payment.aiml
+0,OM,*,CHOOSEN_PAYMENT,<srai>ORANGE</srai>,payment.aiml
+0,#PAY01,*,CHOOSEN_PAYMENT,<srai>ORANGE</srai>,payment.aiml
+0,PAY01,*,CHOOSEN_PAYMENT,<srai>ORANGE</srai>,payment.aiml
+0,01,*,CHOOSEN_PAYMENT,<srai>ORANGE</srai>,payment.aiml
+0,1,*,CHOOSEN_PAYMENT,<srai>ORANGE</srai>,payment.aiml
+0,MTN,*,CHOOSEN_PAYMENT,<get name="congratulation"/>,payment.aiml
+0,MTN MOBILE MONEY,*,CHOOSEN_PAYMENT,<srai>MTN</srai>,payment.aiml
+0,MOBILE MONEY,*,CHOOSEN_PAYMENT,<srai>MTN</srai>,payment.aiml
+0,MOMO,*,CHOOSEN_PAYMENT,<srai>MTN</srai>,payment.aiml
+0,#PAY02,*,CHOOSEN_PAYMENT,<srai>MTN</srai>,payment.aiml
+0,PAY02,*,CHOOSEN_PAYMENT,<srai>MTN</srai>,payment.aiml
+0,02,*,CHOOSEN_PAYMENT,<srai>MTN</srai>,payment.aiml
+0,2,*,CHOOSEN_PAYMENT,<srai>MTN</srai>,payment.aiml
+0,MASTER,*,CHOOSEN_PAYMENT,<get name="congratulation"/>,payment.aiml
+0,MASTER CARD,*,CHOOSEN_PAYMENT,<srai>MASTER</srai>,payment.aiml
+0,#PAY03,*,CHOOSEN_PAYMENT,<srai>MASTER</srai>,payment.aiml
+0,PAY03,*,CHOOSEN_PAYMENT,<srai>MASTER</srai>,payment.aiml
+0,03,*,CHOOSEN_PAYMENT,<srai>MASTER</srai>,payment.aiml
+0,3,*,CHOOSEN_PAYMENT,<srai>MASTER</srai>,payment.aiml
+0,VISA,*,CHOOSEN_PAYMENT,<get name="congratulation"/>,payment.aiml
+0,CARTE VISA,*,CHOOSEN_PAYMENT,<srai>VISA</srai>,payment.aiml
+0,#PAY04,*,CHOOSEN_PAYMENT,<srai>VISA</srai>,payment.aiml
+0,PAY04,*,CHOOSEN_PAYMENT,<srai>VISA</srai>,payment.aiml
+0,04,*,CHOOSEN_PAYMENT,<srai>VISA</srai>,payment.aiml
+0,4,*,CHOOSEN_PAYMENT,<srai>VISA</srai>,payment.aiml
+0,*,*,CHOOSEN_PAYMENT,Désolé#Comma <star/> ne fait pas partie des moyens de payements que nous utilisons. Veuillez faire votre choix ici.#Newline~<get name="payment_list"/>,payment.aiml

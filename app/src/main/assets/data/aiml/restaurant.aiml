@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+
+    <category>
+        <pattern>MENU</pattern>
+        <template><set name="menu_list">NOTRE MENU:
+            ~#men01: Porc braise
+            ~#men02: Poulet DG
+            ~#men03: Bouillon de pomme au sanglier
+            ~#men04: Bongo au machoiron
+            ~#men05: Ndole
+        </set>
+            <think>
+
+                <set name="ask_drink">Voulez-vous être servi avec une boisson?</set>
+
+                <set name="complement_list">Nous accompagnons ce plat avec un ou plusieurs complements suivant:
+                    ~#comp01: Plantain frit
+                    ~#comp02: Plantain bouillit
+                    ~#comp03: Macabo
+                    ~#comp04: Riz
+                    ~#comp05: Myondo
+                    ~Quel complement vous interesse?</set>
+
+                <set name="boisson_list" >nous disposons de:
+                    ~#boi01: bieres
+                    ~#boi02: vins
+                    ~#boi03: jus
+                    ~#boi04: wisky
+                </set>
+
+                <set name="payment_list">Quel moyen de payement voulez-vous utiliser?
+                    ~#pay01: Orange Money
+                    ~#pay02: MTN Mobile Money
+                    ~#pay03: Master Card
+                    ~#pay04: Carte Visa
+                </set>
+
+                <set name="congratulation">Merci d'avoir utilisé notre service. Nous espérons vous revoir bientôt</set>
+
+                <set name="topic">menu</set>
+
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEL EST LE MENU DU JOUR</pattern>
+        <template><srai>MENU</srai></template>
+    </category>
+
+    <category>
+        <pattern>QU'AVEZ-VOUS AUJOURD'HUI</pattern>
+        <template><srai>MENU</srai></template>
+    </category>
+
+    <category>
+        <pattern>JE VOUDRAIS AVOIR LE MENU</pattern>
+        <template><srai>MENU</srai></template>
+    </category>
+
+    <category>
+        <pattern>J'ATTENDS QUELQU'UN</pattern>
+        <template>Nous sommes à votre entière disposition n'exitez pas à nous écrire si vous avez besoin de quelque chose.</template>
+    </category>
+
+</aiml>

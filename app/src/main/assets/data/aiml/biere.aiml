@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+	
+<topic name="biere" >
+	
+<category>
+<pattern>1</pattern>
+<template>Votre commande: 
+~<uppercase><get name="menu" /> - <get name="complement" />, <get name="boisson" /> : GUINESS</uppercase>
+~Prix: 2000 FCFA
+~<get name="payment_list" />
+<think>
+	<set name="boisson_name" >GUINESS</set>
+	<set name="topic">choosen_payment</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>GUINESS</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>LA GUINESS</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>01</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>BIE01</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>#BIE01</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>BIE 01</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>BIE 1</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>2</pattern>
+<template>Votre commande: 
+~<uppercase><get name="menu" /> - <get name="complement" />, <get name="boisson" /> : ICE</uppercase>
+~Prix: 2000 FCFA
+~<get name="payment_list" />
+<think>
+	<set name="boisson_name" >ICE</set>
+	<set name="topic">choosen_payment</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>ICE</pattern>
+<template><srai>2</srai></template>
+</category>
+
+<category>
+<pattern>LA ICE</pattern>
+<template><srai>2</srai></template>
+</category>
+
+<category>
+<pattern>02</pattern>
+<template><srai>2</srai></template>
+</category>
+
+<category>
+<pattern>BIE02</pattern>
+<template><srai>2</srai></template>
+</category>
+
+<category>
+<pattern>#BIE02</pattern>
+<template><srai>2</srai></template>
+</category>
+
+<category>
+<pattern>BIE 02</pattern>
+<template><srai>2</srai></template>
+</category>
+
+<category>
+<pattern>BIE 2</pattern>
+<template><srai>2</srai></template>
+</category>
+
+<category>
+<pattern>3</pattern>
+<template>Votre commande: 
+~<uppercase><get name="menu" /> - <get name="complement" />, <get name="boisson" /> : ORIGIN</uppercase>
+~Prix: 2000 FCFA
+~<get name="payment_list" />
+<think>
+	<set name="boisson_name" >ORIGIN</set>
+	<set name="topic">choosen_payment</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>ORIGIN</pattern>
+<template><srai>3</srai></template>
+</category>
+
+<category>
+<pattern>03</pattern>
+<template><srai>3</srai></template>
+</category>
+
+<category>
+<pattern>BIE03</pattern>
+<template><srai>3</srai></template>
+</category>
+
+<category>
+<pattern>#BIE03</pattern>
+<template><srai>3</srai></template>
+</category>
+
+<category>
+<pattern>BIE 03</pattern>
+<template><srai>3</srai></template>
+</category>
+
+<category>
+<pattern>BIE 3</pattern>
+<template><srai>3</srai></template>
+</category>
+
+<category>
+<pattern>4</pattern>
+<template>Votre commande: 
+~<uppercase><get name="menu" /> - <get name="complement" />, <get name="boisson" /> : HARP</uppercase>
+~Prix: 2000 FCFA
+~<get name="payment_list" />
+<think>
+	<set name="boisson_name" >HARP</set>
+	<set name="topic">choosen_payment</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>HARP</pattern>
+<template><srai>4</srai></template>
+</category>
+
+<category>
+<pattern>LA HARP</pattern>
+<template><srai>4</srai></template>
+</category>
+
+<category>
+<pattern>04</pattern>
+<template><srai>4</srai></template>
+</category>
+
+<category>
+<pattern>BIE04</pattern>
+<template><srai>4</srai></template>
+</category>
+
+<category>
+<pattern>#BIE04</pattern>
+<template><srai>4</srai></template>
+</category>
+
+<category>
+<pattern>BIE 04</pattern>
+<template><srai>4</srai></template>
+</category>
+
+<category>
+<pattern>BIE 4</pattern>
+<template><srai>4</srai></template>
+</category>
+	
+<category>
+<pattern>*</pattern>
+<template>Désolé votre choix ne fait pas partie de la liste. Veuillez reéssayer.
+~<get name="biere_list" /></template>
+</category>
+
+</topic>
+	
+</aiml>

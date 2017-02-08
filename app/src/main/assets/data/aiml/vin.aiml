@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+	
+<topic name="vin" >
+	
+<category>
+<pattern>1</pattern>
+<template>Votre commande: 
+~<uppercase><get name="menu" /> - <get name="complement" />, <get name="boisson" /> : CHATEAU ROUGE</uppercase>
+~Prix: 2000 FCFA
+~<get name="payment_list" />
+<think>
+	<set name="boisson_name" >CHATEAU ROUGE</set>
+	<set name="topic">choosen_payment</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>CHATEAU ROUGE</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>01</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>VIN01</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>#VIN01</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>VIN 01</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>VIN 1</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>2</pattern>
+<template>Votre commande: 
+~<uppercase><get name="menu" /> - <get name="complement" />, <get name="boisson" /> : CHATEAU BLANC</uppercase>
+~Prix: 2000 FCFA
+~<get name="payment_list" />
+<think>
+	<set name="boisson_name" >CHATEAU BLANC</set>
+	<set name="topic">choosen_payment</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>CHATEAU BLANC</pattern>
+<template><srai>2</srai></template>
+</category>
+
+<category>
+<pattern>02</pattern>
+<template><srai>2</srai></template>
+</category>
+
+<category>
+<pattern>VIN02</pattern>
+<template><srai>2</srai></template>
+</category>
+
+<category>
+<pattern>#VIN02</pattern>
+<template><srai>2</srai></template>
+</category>
+
+<category>
+<pattern>VIN 02</pattern>
+<template><srai>2</srai></template>
+</category>
+
+<category>
+<pattern>VIN 2</pattern>
+<template><srai>2</srai></template>
+</category>
+
+<category>
+<pattern>3</pattern>
+<template>Votre commande: 
+~<uppercase><get name="menu" /> - <get name="complement" />, <get name="boisson" /> : GANDIA</uppercase>
+~Prix: 2000 FCFA
+~<get name="payment_list" />
+<think>
+	<set name="boisson_name" >GANDIA</set>
+	<set name="topic">choosen_payment</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>GANDIA</pattern>
+<template><srai>3</srai></template>
+</category>
+
+<category>
+<pattern>03</pattern>
+<template><srai>3</srai></template>
+</category>
+
+<category>
+<pattern>VIN03</pattern>
+<template><srai>3</srai></template>
+</category>
+
+<category>
+<pattern>#VIN03</pattern>
+<template><srai>3</srai></template>
+</category>
+
+<category>
+<pattern>VIN 03</pattern>
+<template><srai>3</srai></template>
+</category>
+
+<category>
+<pattern>VIN 3</pattern>
+<template><srai>3</srai></template>
+</category>
+
+<category>
+<pattern>4</pattern>
+<template>Votre commande: 
+~<uppercase><get name="menu" /> - <get name="complement" />, <get name="boisson" /> : MATANGO</uppercase>
+~Prix: 2000 FCFA
+~<get name="payment_list" />
+<think>
+	<set name="boisson_name" >MATANGO</set>
+	<set name="topic">choosen_payment</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>MATANGO</pattern>
+<template><srai>4</srai></template>
+</category>
+
+<category>
+<pattern>04</pattern>
+<template><srai>4</srai></template>
+</category>
+
+<category>
+<pattern>VIN04</pattern>
+<template><srai>4</srai></template>
+</category>
+
+<category>
+<pattern>#VIN04</pattern>
+<template><srai>4</srai></template>
+</category>
+
+<category>
+<pattern>VIN 04</pattern>
+<template><srai>4</srai></template>
+</category>
+
+<category>
+<pattern>VIN 4</pattern>
+<template><srai>4</srai></template>
+</category>
+	
+<category>
+<pattern>*</pattern>
+<template>Désolé votre choix ne fait pas partie de la liste. Veuillez reéssayer.
+~<get name="biere_list" /></template>
+</category>
+
+</topic>
+	
+</aiml>

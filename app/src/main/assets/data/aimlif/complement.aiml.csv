@@ -1,0 +1,40 @@
+0,PLANTAIN FRIT,*,COMPLEMENT,<get name="ask_drink"/><think><set name="complement">PLANTAIN FRIT</set><set name="topic">boisson</set></think>,complement.aiml
+0,#COMP01,*,COMPLEMENT,<srai>PLANTAIN FRIT</srai>,complement.aiml
+0,COMP01,*,COMPLEMENT,<srai>PLANTAIN FRIT</srai>,complement.aiml
+0,01,*,COMPLEMENT,<srai>PLANTAIN FRIT</srai>,complement.aiml
+0,1,*,COMPLEMENT,<srai>PLANTAIN FRIT</srai>,complement.aiml
+0,COMPLEMENT 01,*,COMPLEMENT,<srai>PLANTAIN FRIT</srai>,complement.aiml
+0,COMPLEMENT 1,*,COMPLEMENT,<srai>PLANTAIN FRIT</srai>,complement.aiml
+0,PLANTAIN BOUILLIT,*,COMPLEMENT,<get name="ask_drink"/><think><set name="complement">PLANTAIN BOUILLIT</set><set name="topic">boisson</set></think>,complement.aiml
+0,#COMP02,*,COMPLEMENT,<srai>PLANTAIN BOUILLIT</srai>,complement.aiml
+0,COMP02,*,COMPLEMENT,<srai>PLANTAIN BOUILLIT</srai>,complement.aiml
+0,02,*,COMPLEMENT,<srai>PLANTAIN BOUILLIT</srai>,complement.aiml
+0,2,*,COMPLEMENT,<srai>PLANTAIN BOUILLIT</srai>,complement.aiml
+0,COMPLEMENT 02,*,COMPLEMENT,<srai>PLANTAIN BOUILLIT</srai>,complement.aiml
+0,COMPLEMENT 2,*,COMPLEMENT,<srai>PLANTAIN BOUILLIT</srai>,complement.aiml
+0,MACABO,*,COMPLEMENT,<get name="ask_drink"/><think><set name="complement">MACABO</set><set name="topic">boisson</set></think>,complement.aiml
+0,#COMP03,*,COMPLEMENT,<srai>MACABO</srai>,complement.aiml
+0,COMP03,*,COMPLEMENT,<srai>MACABO</srai>,complement.aiml
+0,03,*,COMPLEMENT,<srai>MACABO</srai>,complement.aiml
+0,3,*,COMPLEMENT,<srai>MACABO</srai>,complement.aiml
+0,COMPLEMENT 03,*,COMPLEMENT,<srai>MACABO</srai>,complement.aiml
+0,COMPLEMENT 3,*,COMPLEMENT,<srai>MACABO</srai>,complement.aiml
+0,RIZ,*,COMPLEMENT,<get name="ask_drink"/><think><set name="complement">RIZ</set><set name="topic">boisson</set></think>,complement.aiml
+0,#COMP04,*,COMPLEMENT,<srai>RIZ</srai>,complement.aiml
+0,COMP04,*,COMPLEMENT,<srai>RIZ</srai>,complement.aiml
+0,04,*,COMPLEMENT,<srai>RIZ</srai>,complement.aiml
+0,4,*,COMPLEMENT,<srai>RIZ</srai>,complement.aiml
+0,COMPLEMENT 04,*,COMPLEMENT,<srai>RIZ</srai>,complement.aiml
+0,COMPLEMENT 4,*,COMPLEMENT,<srai>RIZ</srai>,complement.aiml
+0,MYONDO,*,COMPLEMENT,<get name="ask_drink"/><think><set name="complement">MYONDO</set><set name="topic">boisson</set></think>,complement.aiml
+0,MIONDO,*,COMPLEMENT,<srai>MYONDO</srai>,complement.aiml
+0,#COMP05,*,COMPLEMENT,<srai>MYONDO</srai>,complement.aiml
+0,COMP05,*,COMPLEMENT,<srai>MYONDO</srai>,complement.aiml
+0,05,*,COMPLEMENT,<srai>MYONDO</srai>,complement.aiml
+0,5,*,COMPLEMENT,<srai>MYONDO</srai>,complement.aiml
+0,COMPLEMENT 05,*,COMPLEMENT,<srai>MYONDO</srai>,complement.aiml
+0,COMPLEMENT 5,*,COMPLEMENT,<srai>MYONDO</srai>,complement.aiml
+0,PLANTAIN,*,COMPLEMENT,Frit ou bouillit,complement.aiml
+0,FRIT,FRIT OU BOUILLIT,COMPLEMENT,<srai>PLANTAIN FRIT</srai>,complement.aiml
+0,BOUILLIT,FRIT OU BOUILLIT,COMPLEMENT,<srai>PLANTAIN BOUILLIT</srai>,complement.aiml
+0,*,*,COMPLEMENT,Désolé#Comma <star/> ne fait pas partie des compléments que nous avons. Veuillez faire votre choix ici.#Newline~<get name="complement_list"/>,complement.aiml

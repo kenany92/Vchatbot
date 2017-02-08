@@ -1,0 +1,41 @@
+0,PORC BRAISE,*,MENU,<srai>PORC</srai>,menu.aiml
+0,PORC,*,MENU,<get name="complement_list"/><think><set name="menu">PORC BRAISE</set><set name="topic">complement</set></think>,menu.aiml
+0,#MEN01,*,MENU,<srai>PORC</srai>,menu.aiml
+0,MEN01,*,MENU,<srai>PORC</srai>,menu.aiml
+0,01,*,MENU,<srai>PORC</srai>,menu.aiml
+0,1,*,MENU,<srai>PORC</srai>,menu.aiml
+0,MENU 01,*,MENU,<srai>PORC</srai>,menu.aiml
+0,MENU 1,*,MENU,<srai>PORC</srai>,menu.aiml
+0,POULET DG,*,MENU,<srai>POULET</srai>,menu.aiml
+0,POULET,*,MENU,<get name="complement_list"/><think><set name="menu">POULET DG</set><set name="topic">complement</set></think>,menu.aiml
+0,#MEN02,*,MENU,<srai>POULET</srai>,menu.aiml
+0,MEN02,*,MENU,<srai>POULET</srai>,menu.aiml
+0,02,*,MENU,<srai>POULET</srai>,menu.aiml
+0,2,*,MENU,<srai>POULET</srai>,menu.aiml
+0,MENU 02,*,MENU,<srai>POULET</srai>,menu.aiml
+0,MENU 2,*,MENU,<srai>POULET</srai>,menu.aiml
+0,BOUILLON,*,MENU,<get name="ask_drink"/><think><set name="menu">BOUILLON</set><set name="topic">complement</set></think>,menu.aiml
+0,BOUILLON DE POMME AU SANGLIER,*,MENU,<srai>BOUILLON</srai>,menu.aiml
+0,BOUILLON DE POMME,*,MENU,<srai>BOUILLON</srai>,menu.aiml
+0,#MEN03,*,MENU,<srai>BOUILLON</srai>,menu.aiml
+0,MEN03,*,MENU,<srai>BOUILLON</srai>,menu.aiml
+0,03,*,MENU,<srai>BOUILLON</srai>,menu.aiml
+0,3,*,MENU,<srai>BOUILLON</srai>,menu.aiml
+0,MENU 03,*,MENU,<srai>BOUILLON</srai>,menu.aiml
+0,MENU 3,*,MENU,<srai>BOUILLON</srai>,menu.aiml
+0,BONGO,*,MENU,<get name="complement_list"/><think><set name="menu">BONGO</set><set name="topic">complement</set></think>,menu.aiml
+0,BONGO AU MACHOIRON,*,MENU,<srai>BONGO</srai>,menu.aiml
+0,#MEN04,*,MENU,<srai>BONGO</srai>,menu.aiml
+0,MEN04,*,MENU,<srai>BONGO</srai>,menu.aiml
+0,04,*,MENU,<srai>BONGO</srai>,menu.aiml
+0,4,*,MENU,<srai>BONGO</srai>,menu.aiml
+0,MENU 04,*,MENU,<srai>BONGO</srai>,menu.aiml
+0,MENU 4,*,MENU,<srai>BONGO</srai>,menu.aiml
+0,NDOLE,*,MENU,<get name="complement_list"/><think><set name="menu">NDOLE</set><set name="topic">complement</set></think>,menu.aiml
+0,#MEN05,*,MENU,<srai>NDOLE</srai>,menu.aiml
+0,MEN05,*,MENU,<srai>NDOLE</srai>,menu.aiml
+0,05,*,MENU,<srai>NDOLE</srai>,menu.aiml
+0,5,*,MENU,<srai>NDOLE</srai>,menu.aiml
+0,MENU 05,*,MENU,<srai>NDOLE</srai>,menu.aiml
+0,MENU 5,*,MENU,<srai>NDOLE</srai>,menu.aiml
+0,*,*,MENU,Désolé#Comma <star/> ne fait pas partie du menu. Veuillez faire votre choix ici.#Newline~<get name="menu_list"/>,menu.aiml

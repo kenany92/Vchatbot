@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+	
+<topic name="jus" >
+	
+<category>
+<pattern>1</pattern>
+<template>Votre commande: 
+~<uppercase><get name="menu" /> - <get name="complement" />, <get name="boisson" /> : COCA COLA</uppercase>
+~Prix: 2000 FCFA
+~<get name="payment_list" />
+<think>
+	<set name="boisson_name" >COCA COLA</set>
+	<set name="topic">choosen_payment</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>COCA COLA</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>LE COCA COLA</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>LE COCA</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>COCA</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>01</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>JUS01</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>#JUS01</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>JUS 01</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>JUS 1</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>2</pattern>
+<template>Votre commande: 
+~<uppercase><get name="menu" /> - <get name="complement" />, <get name="boisson" /> : DJINO</uppercase>
+~Prix: 2000 FCFA
+~<get name="payment_list" />
+<think>
+	<set name="boisson_name" >DJINO</set>
+	<set name="topic">choosen_payment</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>DJINO</pattern>
+<template><srai>2</srai></template>
+</category>
+
+<category>
+<pattern>LE DJINO</pattern>
+<template><srai>2</srai></template>
+</category>
+
+<category>
+<pattern>02</pattern>
+<template><srai>2</srai></template>
+</category>
+
+<category>
+<pattern>JUS02</pattern>
+<template><srai>2</srai></template>
+</category>
+
+<category>
+<pattern>#JUS02</pattern>
+<template><srai>2</srai></template>
+</category>
+
+<category>
+<pattern>JUS 02</pattern>
+<template><srai>2</srai></template>
+</category>
+
+<category>
+<pattern>JUS 2</pattern>
+<template><srai>2</srai></template>
+</category>
+
+<category>
+<pattern>3</pattern>
+<template>Votre commande: 
+~<uppercase><get name="menu" /> - <get name="complement" />, <get name="boisson" /> : FANTA</uppercase>
+~Prix: 2000 FCFA
+~<get name="payment_list" />
+<think>
+	<set name="boisson_name" >FANTA</set>
+	<set name="topic">choosen_payment</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>FANTA</pattern>
+<template><srai>3</srai></template>
+</category>
+
+<category>
+<pattern>LA FANTA</pattern>
+<template><srai>3</srai></template>
+</category>
+
+<category>
+<pattern>03</pattern>
+<template><srai>3</srai></template>
+</category>
+
+<category>
+<pattern>JUS03</pattern>
+<template><srai>3</srai></template>
+</category>
+
+<category>
+<pattern>#JUS03</pattern>
+<template><srai>3</srai></template>
+</category>
+
+<category>
+<pattern>JUS 03</pattern>
+<template><srai>3</srai></template>
+</category>
+
+<category>
+<pattern>JUS 3</pattern>
+<template><srai>3</srai></template>
+</category>
+
+<category>
+<pattern>4</pattern>
+<template>Votre commande: 
+~<uppercase><get name="menu" /> - <get name="complement" />, <get name="boisson" /> : ORANGINA</uppercase>
+~Prix: 2000 FCFA
+~<get name="payment_list" />
+<think>
+	<set name="boisson_name" >ORANGINA</set>
+	<set name="topic">choosen_payment</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>ORANGINA</pattern>
+<template><srai>4</srai></template>
+</category>
+
+<category>
+<pattern>L' ORANGINA</pattern>
+<template><srai>4</srai></template>
+</category>
+
+<category>
+<pattern>04</pattern>
+<template><srai>4</srai></template>
+</category>
+
+<category>
+<pattern>JUS04</pattern>
+<template><srai>4</srai></template>
+</category>
+
+<category>
+<pattern>#JUS04</pattern>
+<template><srai>4</srai></template>
+</category>
+
+<category>
+<pattern>JUS 04</pattern>
+<template><srai>4</srai></template>
+</category>
+
+<category>
+<pattern>JUS 4</pattern>
+<template><srai>4</srai></template>
+</category>
+	
+<category>
+<pattern>*</pattern>
+<template>Désolé votre choix ne fait pas partie de la liste. Veuillez reéssayer.
+~<get name="biere_list" /></template>
+</category>
+
+</topic>
+	
+</aiml>

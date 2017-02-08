@@ -1,0 +1,35 @@
+0,1,*,JUS,Votre commande: #Newline~<uppercase><get name="menu"/> - <get name="complement"/>#Comma <get name="boisson"/> : COCA COLA</uppercase>#Newline~Prix: 2000 FCFA#Newline~<get name="payment_list"/>#Newline<think>#Newline	<set name="boisson_name">COCA COLA</set>#Newline	<set name="topic">choosen_payment</set>#Newline</think>,jus.aiml
+0,COCA COLA,*,JUS,<srai>1</srai>,jus.aiml
+0,LE COCA COLA,*,JUS,<srai>1</srai>,jus.aiml
+0,LE COCA,*,JUS,<srai>1</srai>,jus.aiml
+0,COCA,*,JUS,<srai>1</srai>,jus.aiml
+0,01,*,JUS,<srai>1</srai>,jus.aiml
+0,JUS01,*,JUS,<srai>1</srai>,jus.aiml
+0,#JUS01,*,JUS,<srai>1</srai>,jus.aiml
+0,JUS 01,*,JUS,<srai>1</srai>,jus.aiml
+0,JUS 1,*,JUS,<srai>1</srai>,jus.aiml
+0,2,*,JUS,Votre commande: #Newline~<uppercase><get name="menu"/> - <get name="complement"/>#Comma <get name="boisson"/> : DJINO</uppercase>#Newline~Prix: 2000 FCFA#Newline~<get name="payment_list"/>#Newline<think>#Newline	<set name="boisson_name">DJINO</set>#Newline	<set name="topic">choosen_payment</set>#Newline</think>,jus.aiml
+0,DJINO,*,JUS,<srai>2</srai>,jus.aiml
+0,LE DJINO,*,JUS,<srai>2</srai>,jus.aiml
+0,02,*,JUS,<srai>2</srai>,jus.aiml
+0,JUS02,*,JUS,<srai>2</srai>,jus.aiml
+0,#JUS02,*,JUS,<srai>2</srai>,jus.aiml
+0,JUS 02,*,JUS,<srai>2</srai>,jus.aiml
+0,JUS 2,*,JUS,<srai>2</srai>,jus.aiml
+0,3,*,JUS,Votre commande: #Newline~<uppercase><get name="menu"/> - <get name="complement"/>#Comma <get name="boisson"/> : FANTA</uppercase>#Newline~Prix: 2000 FCFA#Newline~<get name="payment_list"/>#Newline<think>#Newline	<set name="boisson_name">FANTA</set>#Newline	<set name="topic">choosen_payment</set>#Newline</think>,jus.aiml
+0,FANTA,*,JUS,<srai>3</srai>,jus.aiml
+0,LA FANTA,*,JUS,<srai>3</srai>,jus.aiml
+0,03,*,JUS,<srai>3</srai>,jus.aiml
+0,JUS03,*,JUS,<srai>3</srai>,jus.aiml
+0,#JUS03,*,JUS,<srai>3</srai>,jus.aiml
+0,JUS 03,*,JUS,<srai>3</srai>,jus.aiml
+0,JUS 3,*,JUS,<srai>3</srai>,jus.aiml
+0,4,*,JUS,Votre commande: #Newline~<uppercase><get name="menu"/> - <get name="complement"/>#Comma <get name="boisson"/> : ORANGINA</uppercase>#Newline~Prix: 2000 FCFA#Newline~<get name="payment_list"/>#Newline<think>#Newline	<set name="boisson_name">ORANGINA</set>#Newline	<set name="topic">choosen_payment</set>#Newline</think>,jus.aiml
+0,ORANGINA,*,JUS,<srai>4</srai>,jus.aiml
+0,L' ORANGINA,*,JUS,<srai>4</srai>,jus.aiml
+0,04,*,JUS,<srai>4</srai>,jus.aiml
+0,JUS04,*,JUS,<srai>4</srai>,jus.aiml
+0,#JUS04,*,JUS,<srai>4</srai>,jus.aiml
+0,JUS 04,*,JUS,<srai>4</srai>,jus.aiml
+0,JUS 4,*,JUS,<srai>4</srai>,jus.aiml
+0,*,*,JUS,Désolé votre choix ne fait pas partie de la liste. Veuillez reéssayer.#Newline~<get name="biere_list"/>,jus.aiml

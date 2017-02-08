@@ -1,0 +1,41 @@
+0,OUI,*,BOISSON,<get name="boisson_list"/>#Newline	<think>#Newline		<set name="topic">boisson_type</set>#Newline	</think>,boisson.aiml
+0,OK,*,BOISSON,<srai>OUI</srai>,boisson.aiml
+0,O,*,BOISSON,<srai>OUI</srai>,boisson.aiml
+0,YES,*,BOISSON,<srai>OUI</srai>,boisson.aiml
+0,Y,*,BOISSON,<srai>OUI</srai>,boisson.aiml
+0,NON,*,BOISSON,Votre commande: <get name="menu"/> <get name="complement"/>#Newline~Prix: 1500 FCFA#Newline~<get name="payment_list"/>#Newline	<think>#Newline		<set name="topic">choosen_payment</set>#Newline	</think>,boisson.aiml
+0,NO,*,BOISSON,<srai>NON</srai>,boisson.aiml
+0,N,*,BOISSON,<srai>NON</srai>,boisson.aiml
+0,*,*,BOISSON,<random>#Newline<li>Je ne comprends pas votre choix. Vous devez saisir soit oui soit non.</li>#Newline<li>S'il vous plait#Comma veuillez saisir soit oui soit non.</li>#Newline<li>Pour que votre demande soit facilement traitée#Comma veuillez saisir soit oui soit non.</li>#Newline<li>Vouliez-vous dire oui?</li>#Newline</random>,boisson.aiml
+0,BIERE,*,BOISSON_TYPE,<set name="biere_list">Nous avons #Newline~#bie01: la Guiness#Comma #Newline~#bie02: la Ice#Comma #Newline~#bie03: Origin#Comma #Newline~#bie04: la Harp </set>#Newline<think>#Newline	<set name="boisson">BIERE</set>#Newline	<set name="topic">biere</set>#Newline</think>,boisson.aiml
+0,BIERES,*,BOISSON_TYPE,<srai>BIERE</srai>,boisson.aiml
+0,#BOI01,*,BOISSON_TYPE,<srai>BIERE</srai>,boisson.aiml
+0,BOI01,*,BOISSON_TYPE,<srai>BIERE</srai>,boisson.aiml
+0,01,*,BOISSON_TYPE,<srai>BIERE</srai>,boisson.aiml
+0,1,*,BOISSON_TYPE,<srai>BIERE</srai>,boisson.aiml
+0,BOISSON 01,*,BOISSON_TYPE,<srai>BIERE</srai>,boisson.aiml
+0,BOISSON 1,*,BOISSON_TYPE,<srai>BIERE</srai>,boisson.aiml
+0,VIN,*,BOISSON_TYPE,<set name="biere_list">Nous avons: #Newline~#vin01: le Chateau Rouge#Comma #Newline~#vin02: le Chateau Blanc#Comma #Newline~#vin03: le Gandia#Comma #Newline~#vin04: le Matango</set>#Newline<think>#Newline	<set name="boisson">VIN</set>#Newline	<set name="topic">vin</set>#Newline</think>,boisson.aiml
+0,VINS,*,BOISSON_TYPE,<srai>VIN</srai>,boisson.aiml
+0,#BOI02,*,BOISSON_TYPE,<srai>VIN</srai>,boisson.aiml
+0,BOI02,*,BOISSON_TYPE,<srai>VIN</srai>,boisson.aiml
+0,02,*,BOISSON_TYPE,<srai>VIN</srai>,boisson.aiml
+0,2,*,BOISSON_TYPE,<srai>VIN</srai>,boisson.aiml
+0,BOISSON 02,*,BOISSON_TYPE,<srai>VIN</srai>,boisson.aiml
+0,BOISSON 2,*,BOISSON_TYPE,<srai>VIN</srai>,boisson.aiml
+0,JUS,*,BOISSON_TYPE,<set name="biere_list">Nous avons: #Newline~#jus01: le Coca#Comma #Newline~#jus02: le Djino#Comma #Newline~#jus03: la Fanta#Comma #Newline~#jus04: l'Orangina</set>#Newline<think>#Newline	<set name="boisson">JUS</set>#Newline	<set name="topic">jus</set>#Newline</think>,boisson.aiml
+0,JU,*,BOISSON_TYPE,<srai>JUS</srai>,boisson.aiml
+0,#BOI03,*,BOISSON_TYPE,<srai>JUS</srai>,boisson.aiml
+0,BOI03,*,BOISSON_TYPE,<srai>JUS</srai>,boisson.aiml
+0,03,*,BOISSON_TYPE,<srai>JUS</srai>,boisson.aiml
+0,3,*,BOISSON_TYPE,<srai>JUS</srai>,boisson.aiml
+0,BOISSON 03,*,BOISSON_TYPE,<srai>JUS</srai>,boisson.aiml
+0,BOISSON 3,*,BOISSON_TYPE,<srai>JUS</srai>,boisson.aiml
+0,WISKY,*,BOISSON_TYPE,<set name="biere_list">Nous avons le #Newline~#wis01: Lion d'or#Comma #Newline~#wis02: le Fighter#Comma #Newline~#wis03: le RedBull#Comma #Newline~#wis04: le Fofo</set>#Newline<think>#Newline	<set name="boisson">WISKY</set>#Newline	<set name="topic">wisky</set>#Newline</think>,boisson.aiml
+0,#BOI04,*,BOISSON_TYPE,<srai>WISKY</srai>,boisson.aiml
+0,BOI04,*,BOISSON_TYPE,<srai>WISKY</srai>,boisson.aiml
+0,04,*,BOISSON_TYPE,<srai>WISKY</srai>,boisson.aiml
+0,4,*,BOISSON_TYPE,<srai>WISKY</srai>,boisson.aiml
+0,BOISSON 04,*,BOISSON_TYPE,<srai>WISKY</srai>,boisson.aiml
+0,BOISSON 4,*,BOISSON_TYPE,<srai>WISKY</srai>,boisson.aiml
+0,*,*,BOISSON_TYPE,Désolé#Comma <star/> ne fait pas partie des boissons que nous avons. Veuillez faire votre choix ici.#Newline~<get name="boisson_list"/>,boisson.aiml

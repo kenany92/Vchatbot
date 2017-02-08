@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+	
+<topic name="wisky" >
+	
+<category>
+<pattern>1</pattern>
+<template>Votre commande: 
+~<uppercase><get name="menu" /> - <get name="complement" />, <get name="boisson" /> : LION D'OR</uppercase>
+~Prix: 2000 FCFA
+~<get name="payment_list" />
+<think>
+	<set name="boisson_name" >LION D'OR</set>
+	<set name="topic">choosen_payment</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>LION D'OR</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>LE LION D'OR</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>01</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>WIS01</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>#WIS01</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>WIS 01</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>WIS 1</pattern>
+<template><srai>1</srai></template>
+</category>
+
+<category>
+<pattern>2</pattern>
+<template>Votre commande: 
+~<uppercase><get name="menu" /> - <get name="complement" />, <get name="boisson" /> : FIGTHER</uppercase>
+~Prix: 2000 FCFA
+~<get name="payment_list" />
+<think>
+	<set name="boisson_name" >FIGTHER</set>
+	<set name="topic">choosen_payment</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>FIGTHER</pattern>
+<template><srai>2</srai></template>
+</category>
+
+<category>
+<pattern>LE FIGTHER</pattern>
+<template><srai>2</srai></template>
+</category>
+
+<category>
+<pattern>02</pattern>
+<template><srai>2</srai></template>
+</category>
+
+<category>
+<pattern>WIS02</pattern>
+<template><srai>2</srai></template>
+</category>
+
+<category>
+<pattern>#WIS02</pattern>
+<template><srai>2</srai></template>
+</category>
+
+<category>
+<pattern>WIS 02</pattern>
+<template><srai>2</srai></template>
+</category>
+
+<category>
+<pattern>WIS 2</pattern>
+<template><srai>2</srai></template>
+</category>
+
+<category>
+<pattern>3</pattern>
+<template>Votre commande: 
+~<uppercase><get name="menu" /> - <get name="complement" />, <get name="boisson" /> : REDBULL</uppercase>
+~Prix: 2000 FCFA
+~<get name="payment_list" />
+<think>
+	<set name="boisson_name" >REDBULL</set>
+	<set name="topic">choosen_payment</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>REDBULL</pattern>
+<template><srai>3</srai></template>
+</category>
+
+<category>
+<pattern>LE REDBULL</pattern>
+<template><srai>3</srai></template>
+</category>
+
+<category>
+<pattern>03</pattern>
+<template><srai>3</srai></template>
+</category>
+
+<category>
+<pattern>WIS03</pattern>
+<template><srai>3</srai></template>
+</category>
+
+<category>
+<pattern>#WIS03</pattern>
+<template><srai>3</srai></template>
+</category>
+
+<category>
+<pattern>WIS 03</pattern>
+<template><srai>3</srai></template>
+</category>
+
+<category>
+<pattern>WIS 3</pattern>
+<template><srai>3</srai></template>
+</category>
+
+<category>
+<pattern>4</pattern>
+<template>Votre commande: 
+~<uppercase><get name="menu" /> - <get name="complement" />, <get name="boisson" /> : FOFO</uppercase>
+~Prix: 2000 FCFA
+~<get name="payment_list" />
+<think>
+	<set name="boisson_name" >FOFO</set>
+	<set name="topic">choosen_payment</set>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>FOFO</pattern>
+<template><srai>4</srai></template>
+</category>
+
+<category>
+<pattern>LE FOFO</pattern>
+<template><srai>4</srai></template>
+</category>
+
+<category>
+<pattern>04</pattern>
+<template><srai>4</srai></template>
+</category>
+
+<category>
+<pattern>WIS04</pattern>
+<template><srai>4</srai></template>
+</category>
+
+<category>
+<pattern>#WIS04</pattern>
+<template><srai>4</srai></template>
+</category>
+
+<category>
+<pattern>WIS 04</pattern>
+<template><srai>4</srai></template>
+</category>
+
+<category>
+<pattern>WIS 4</pattern>
+<template><srai>4</srai></template>
+</category>
+	
+<category>
+<pattern>*</pattern>
+<template>Désolé votre choix ne fait pas partie de la liste. Veuillez reéssayer.
+~<get name="biere_list" /></template>
+</category>
+
+</topic>
+	
+</aiml>

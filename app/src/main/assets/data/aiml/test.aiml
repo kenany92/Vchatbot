@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+	
+<category>
+<pattern>HELLO ARMEL</pattern>
+<template>Hello World My name is Armel</template>
+</category>
+
+   <category>
+      <pattern>Bonjour</pattern>
+      <template>Bonjour. svp quel est votre nom <set name = "topic">name</set></template>
+   </category>
+
+   <topic name = "name">
+      <category>
+         <pattern> * </pattern>
+         <template>Bonjour <star />. Que puis-je faire pour vous aujourd'hui?</template>
+      </category>
+   </topic>
+
+<category>
+<pattern>I LIKE *</pattern>
+<template>I to like <star/></template>
+</category>
+
+   <category>
+      <pattern>WHAT ABOUT MOVIES * </pattern>
+      <template>Do you like comedy <set name="movie"><star /></set> movies</template>
+   </category>
+
+   <category>
+      <pattern>YES</pattern>
+      <that>Do you like comedy avengers movies</that>
+      <template>Nice, I like <get name="movie"></get> movies too.</template>
+   </category>
+
+   <category>
+      <pattern>NO</pattern>
+      <that>Do you like comedy avengers movies</that>
+      <template>Ok! But I like comedy movies.</template>
+   </category>
+   
+   <category>
+      <pattern>I am *</pattern>
+      <template>
+         Hello <set name = "username"> <star/>! </set>
+      </template>  
+   </category>  
+   
+   <category>
+      <pattern>Good Night</pattern>
+      <template>
+         Hi <get name = "username"/> Thanks for the conversation!
+      </template>  
+   </category>
+
+</aiml>

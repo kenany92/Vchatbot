@@ -1,0 +1,32 @@
+0,1,*,BIERE,Votre commande: #Newline~<uppercase><get name="menu"/> - <get name="complement"/>#Comma <get name="boisson"/> : GUINESS</uppercase>#Newline~Prix: 2000 FCFA#Newline~<get name="payment_list"/>#Newline<think>#Newline	<set name="boisson_name">GUINESS</set>#Newline	<set name="topic">choosen_payment</set>#Newline</think>,biere.aiml
+0,GUINESS,*,BIERE,<srai>1</srai>,biere.aiml
+0,LA GUINESS,*,BIERE,<srai>1</srai>,biere.aiml
+0,01,*,BIERE,<srai>1</srai>,biere.aiml
+0,BIE01,*,BIERE,<srai>1</srai>,biere.aiml
+0,#BIE01,*,BIERE,<srai>1</srai>,biere.aiml
+0,BIE 01,*,BIERE,<srai>1</srai>,biere.aiml
+0,BIE 1,*,BIERE,<srai>1</srai>,biere.aiml
+0,2,*,BIERE,Votre commande: #Newline~<uppercase><get name="menu"/> - <get name="complement"/>#Comma <get name="boisson"/> : ICE</uppercase>#Newline~Prix: 2000 FCFA#Newline~<get name="payment_list"/>#Newline<think>#Newline	<set name="boisson_name">ICE</set>#Newline	<set name="topic">choosen_payment</set>#Newline</think>,biere.aiml
+0,ICE,*,BIERE,<srai>2</srai>,biere.aiml
+0,LA ICE,*,BIERE,<srai>2</srai>,biere.aiml
+0,02,*,BIERE,<srai>2</srai>,biere.aiml
+0,BIE02,*,BIERE,<srai>2</srai>,biere.aiml
+0,#BIE02,*,BIERE,<srai>2</srai>,biere.aiml
+0,BIE 02,*,BIERE,<srai>2</srai>,biere.aiml
+0,BIE 2,*,BIERE,<srai>2</srai>,biere.aiml
+0,3,*,BIERE,Votre commande: #Newline~<uppercase><get name="menu"/> - <get name="complement"/>#Comma <get name="boisson"/> : ORIGIN</uppercase>#Newline~Prix: 2000 FCFA#Newline~<get name="payment_list"/>#Newline<think>#Newline	<set name="boisson_name">ORIGIN</set>#Newline	<set name="topic">choosen_payment</set>#Newline</think>,biere.aiml
+0,ORIGIN,*,BIERE,<srai>3</srai>,biere.aiml
+0,03,*,BIERE,<srai>3</srai>,biere.aiml
+0,BIE03,*,BIERE,<srai>3</srai>,biere.aiml
+0,#BIE03,*,BIERE,<srai>3</srai>,biere.aiml
+0,BIE 03,*,BIERE,<srai>3</srai>,biere.aiml
+0,BIE 3,*,BIERE,<srai>3</srai>,biere.aiml
+0,4,*,BIERE,Votre commande: #Newline~<uppercase><get name="menu"/> - <get name="complement"/>#Comma <get name="boisson"/> : HARP</uppercase>#Newline~Prix: 2000 FCFA#Newline~<get name="payment_list"/>#Newline<think>#Newline	<set name="boisson_name">HARP</set>#Newline	<set name="topic">choosen_payment</set>#Newline</think>,biere.aiml
+0,HARP,*,BIERE,<srai>4</srai>,biere.aiml
+0,LA HARP,*,BIERE,<srai>4</srai>,biere.aiml
+0,04,*,BIERE,<srai>4</srai>,biere.aiml
+0,BIE04,*,BIERE,<srai>4</srai>,biere.aiml
+0,#BIE04,*,BIERE,<srai>4</srai>,biere.aiml
+0,BIE 04,*,BIERE,<srai>4</srai>,biere.aiml
+0,BIE 4,*,BIERE,<srai>4</srai>,biere.aiml
+0,*,*,BIERE,Désolé votre choix ne fait pas partie de la liste. Veuillez reéssayer.#Newline~<get name="biere_list"/>,biere.aiml
