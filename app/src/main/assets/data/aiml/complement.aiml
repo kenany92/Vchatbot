@@ -1,211 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0.1" encoding="UTF-8">
 
-    <topic name="complement">
+<topic name="complement">
 
-        <category>
-            <pattern>PLANTAIN FRIT</pattern>
-            <template><get name="ask_drink" /><think><set name="complement" >PLANTAIN FRIT</set><set name="topic" >boisson</set></think></template>
-        </category>
+<category>
+<pattern>PLANTAIN FRIT</pattern>
+<template><get name="ask_drink" /><think><set name="complement" >PLANTAIN FRIT</set><set name="topic" >boisson</set></think></template>
+</category>
 
-        <category>
-            <pattern>#COMP01</pattern>
-            <template><srai>PLANTAIN FRIT</srai></template>
-        </category>
+<category>
+<pattern>#COMP01</pattern>
+<template><srai>PLANTAIN FRIT</srai></template>
+</category>
 
-        <category>
-            <pattern>COMP01</pattern>
-            <template><srai>PLANTAIN FRIT</srai></template>
-        </category>
+<category>
+<pattern>COMP01</pattern>
+<template><srai>PLANTAIN FRIT</srai></template>
+</category>
 
-        <category>
-            <pattern>01</pattern>
-            <template><srai>PLANTAIN FRIT</srai></template>
-        </category>
+<category>
+<pattern>01</pattern>
+<template><srai>PLANTAIN FRIT</srai></template>
+</category>
 
-        <category>
-            <pattern>1</pattern>
-            <template><srai>PLANTAIN FRIT</srai></template>
-        </category>
+<category>
+<pattern>1</pattern>
+<template><srai>PLANTAIN FRIT</srai></template>
+</category>
 
-        <category>
-            <pattern>COMPLEMENT 01</pattern>
-            <template><srai>PLANTAIN FRIT</srai></template>
-        </category>
+<category>
+<pattern>COMPLEMENT 01</pattern>
+<template><srai>PLANTAIN FRIT</srai></template>
+</category>
 
-        <category>
-            <pattern>COMPLEMENT 1</pattern>
-            <template><srai>PLANTAIN FRIT</srai></template>
-        </category>
+<category>
+<pattern>COMPLEMENT 1</pattern>
+<template><srai>PLANTAIN FRIT</srai></template>
+</category>
 
-        <category>
-            <pattern>PLANTAIN BOUILLIT</pattern>
-            <template><get name="ask_drink" /><think><set name="complement" >PLANTAIN BOUILLIT</set><set name="topic" >boisson</set></think></template>
-        </category>
+<category>
+<pattern>PLANTAIN BOUILLIT</pattern>
+<template><get name="ask_drink" /><think><set name="complement" >PLANTAIN BOUILLIT</set><set name="topic" >boisson</set></think></template>
+</category>
 
-        <category>
-            <pattern>#COMP02</pattern>
-            <template><srai>PLANTAIN BOUILLIT</srai></template>
-        </category>
+<category>
+<pattern>#COMP02</pattern>
+<template><srai>PLANTAIN BOUILLIT</srai></template>
+</category>
 
-        <category>
-            <pattern>COMP02</pattern>
-            <template><srai>PLANTAIN BOUILLIT</srai></template>
-        </category>
+<category>
+<pattern>COMP02</pattern>
+<template><srai>PLANTAIN BOUILLIT</srai></template>
+</category>
 
-        <category>
-            <pattern>02</pattern>
-            <template><srai>PLANTAIN BOUILLIT</srai></template>
-        </category>
+<category>
+<pattern>02</pattern>
+<template><srai>PLANTAIN BOUILLIT</srai></template>
+</category>
 
-        <category>
-            <pattern>2</pattern>
-            <template><srai>PLANTAIN BOUILLIT</srai></template>
-        </category>
+<category>
+<pattern>2</pattern>
+<template><srai>PLANTAIN BOUILLIT</srai></template>
+</category>
 
-        <category>
-            <pattern>COMPLEMENT 02</pattern>
-            <template><srai>PLANTAIN BOUILLIT</srai></template>
-        </category>
+<category>
+<pattern>COMPLEMENT 02</pattern>
+<template><srai>PLANTAIN BOUILLIT</srai></template>
+</category>
 
-        <category>
-            <pattern>COMPLEMENT 2</pattern>
-            <template><srai>PLANTAIN BOUILLIT</srai></template>
-        </category>
+<category>
+<pattern>COMPLEMENT 2</pattern>
+<template><srai>PLANTAIN BOUILLIT</srai></template>
+</category>
 
-        <category>
-            <pattern>MACABO</pattern>
-            <template><get name="ask_drink" /><think><set name="complement" >MACABO</set><set name="topic" >boisson</set></think></template>
-        </category>
+<category>
+<pattern>MACABO</pattern>
+<template><get name="ask_drink" /><think><set name="complement" >MACABO</set><set name="topic" >boisson</set></think></template>
+</category>
 
-        <category>
-            <pattern>#COMP03</pattern>
-            <template><srai>MACABO</srai></template>
-        </category>
+<category>
+<pattern>#COMP03</pattern>
+<template><srai>MACABO</srai></template>
+</category>
 
-        <category>
-            <pattern>COMP03</pattern>
-            <template><srai>MACABO</srai></template>
-        </category>
+<category>
+<pattern>COMP03</pattern>
+<template><srai>MACABO</srai></template>
+</category>
 
-        <category>
-            <pattern>03</pattern>
-            <template><srai>MACABO</srai></template>
-        </category>
+<category>
+<pattern>03</pattern>
+<template><srai>MACABO</srai></template>
+</category>
 
-        <category>
-            <pattern>3</pattern>
-            <template><srai>MACABO</srai></template>
-        </category>
+<category>
+<pattern>3</pattern>
+<template><srai>MACABO</srai></template>
+</category>
 
-        <category>
-            <pattern>COMPLEMENT 03</pattern>
-            <template><srai>MACABO</srai></template>
-        </category>
+<category>
+<pattern>COMPLEMENT 03</pattern>
+<template><srai>MACABO</srai></template>
+</category>
 
-        <category>
-            <pattern>COMPLEMENT 3</pattern>
-            <template><srai>MACABO</srai></template>
-        </category>
+<category>
+<pattern>COMPLEMENT 3</pattern>
+<template><srai>MACABO</srai></template>
+</category>
 
-        <category>
-            <pattern>RIZ</pattern>
-            <template><get name="ask_drink" /><think><set name="complement" >RIZ</set><set name="topic" >boisson</set></think></template>
-        </category>
+<category>
+<pattern>RIZ</pattern>
+<template><get name="ask_drink" /><think><set name="complement" >RIZ</set><set name="topic" >boisson</set></think></template>
+</category>
 
-        <category>
-            <pattern>#COMP04</pattern>
-            <template><srai>RIZ</srai></template>
-        </category>
+<category>
+<pattern>#COMP04</pattern>
+<template><srai>RIZ</srai></template>
+</category>
 
-        <category>
-            <pattern>COMP04</pattern>
-            <template><srai>RIZ</srai></template>
-        </category>
+<category>
+<pattern>COMP04</pattern>
+<template><srai>RIZ</srai></template>
+</category>
 
-        <category>
-            <pattern>04</pattern>
-            <template><srai>RIZ</srai></template>
-        </category>
+<category>
+<pattern>04</pattern>
+<template><srai>RIZ</srai></template>
+</category>
 
-        <category>
-            <pattern>4</pattern>
-            <template><srai>RIZ</srai></template>
-        </category>
+<category>
+<pattern>4</pattern>
+<template><srai>RIZ</srai></template>
+</category>
 
-        <category>
-            <pattern>COMPLEMENT 04</pattern>
-            <template><srai>RIZ</srai></template>
-        </category>
+<category>
+<pattern>COMPLEMENT 04</pattern>
+<template><srai>RIZ</srai></template>
+</category>
 
-        <category>
-            <pattern>COMPLEMENT 4</pattern>
-            <template><srai>RIZ</srai></template>
-        </category>
+<category>
+<pattern>COMPLEMENT 4</pattern>
+<template><srai>RIZ</srai></template>
+</category>
 
-        <category>
-            <pattern>MYONDO</pattern>
-            <template><get name="ask_drink" /><think><set name="complement" >MYONDO</set><set name="topic" >boisson</set></think></template>
-        </category>
+<category>
+<pattern>MYONDO</pattern>
+<template><get name="ask_drink" /><think><set name="complement" >MYONDO</set><set name="topic" >boisson</set></think></template>
+</category>
 
-        <category>
-            <pattern>MIONDO</pattern>
-            <template><srai>MYONDO</srai></template>
-        </category>
+<category>
+<pattern>MIONDO</pattern>
+<template><srai>MYONDO</srai></template>
+</category>
 
-        <category>
-            <pattern>#COMP05</pattern>
-            <template><srai>MYONDO</srai></template>
-        </category>
+<category>
+<pattern>#COMP05</pattern>
+<template><srai>MYONDO</srai></template>
+</category>
 
-        <category>
-            <pattern>COMP05</pattern>
-            <template><srai>MYONDO</srai></template>
-        </category>
+<category>
+<pattern>COMP05</pattern>
+<template><srai>MYONDO</srai></template>
+</category>
 
-        <category>
-            <pattern>05</pattern>
-            <template><srai>MYONDO</srai></template>
-        </category>
+<category>
+<pattern>05</pattern>
+<template><srai>MYONDO</srai></template>
+</category>
 
-        <category>
-            <pattern>5</pattern>
-            <template><srai>MYONDO</srai></template>
-        </category>
+<category>
+<pattern>5</pattern>
+<template><srai>MYONDO</srai></template>
+</category>
 
-        <category>
-            <pattern>COMPLEMENT 05</pattern>
-            <template><srai>MYONDO</srai></template>
-        </category>
+<category>
+<pattern>COMPLEMENT 05</pattern>
+<template><srai>MYONDO</srai></template>
+</category>
 
-        <category>
-            <pattern>COMPLEMENT 5</pattern>
-            <template><srai>MYONDO</srai></template>
-        </category>
+<category>
+<pattern>COMPLEMENT 5</pattern>
+<template><srai>MYONDO</srai></template>
+</category>
 
-        <category>
-            <pattern>PLANTAIN</pattern>
-            <template>Frit ou bouillit</template>
-        </category>
+<category>
+<pattern>PLANTAIN</pattern>
+<template>Frit ou bouillit</template>
+</category>
 
-        <category>
-            <pattern>FRIT</pattern>
-            <that>Frit ou bouillit</that>
-            <template><srai>PLANTAIN FRIT</srai></template>
-        </category>
+<category>
+<pattern>FRIT</pattern>
+<that>Frit ou bouillit</that>
+<template><srai>PLANTAIN FRIT</srai></template>
+</category>
 
-        <category>
-            <pattern>BOUILLIT</pattern>
-            <that>Frit ou bouillit</that>
-            <template><srai>PLANTAIN BOUILLIT</srai></template>
-        </category>
+<category>
+<pattern>BOUILLIT</pattern>
+<that>Frit ou bouillit</that>
+<template><srai>PLANTAIN BOUILLIT</srai></template>
+</category>
 
-        <category>
-            <pattern>*</pattern>
-            <template>Désolé, <star /> ne fait pas partie des compléments que nous avons. Veuillez faire votre choix ici.
-                ~<get name="complement_list" /></template>
-        </category>
+<category>
+<pattern>*</pattern>
+<template>Désolé, <star /> ne fait pas partie des compléments que nous avons. Veuillez faire votre choix ici.
+~<get name="complement_list" /></template>
+</category>
 
-    </topic>
+</topic>
 
 </aiml>

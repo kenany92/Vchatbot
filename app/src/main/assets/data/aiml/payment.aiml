@@ -1,203 +1,203 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0.1" encoding="UTF-8">
 
-	<topic name="choosen_payment">
+<topic name="choosen_payment">
+	
+<category>
+<pattern>ORANGE</pattern>
+<template>
+	<get name="congratulation" />
+</template>
+</category>
 
-		<category>
-			<pattern>ORANGE</pattern>
-			<template>
-				<get name="congratulation" />
-			</template>
-		</category>
+<category>
+<pattern>ORANGE MONEY</pattern>
+<template>
+	<srai>ORANGE</srai>
+</template>
+</category>
 
-		<category>
-			<pattern>ORANGE MONEY</pattern>
-			<template>
-				<srai>ORANGE</srai>
-			</template>
-		</category>
+<category>
+<pattern>OM</pattern>
+<template>
+	<srai>ORANGE</srai>
+</template>
+</category>
 
-		<category>
-			<pattern>OM</pattern>
-			<template>
-				<srai>ORANGE</srai>
-			</template>
-		</category>
+<category>
+<pattern>#PAY01</pattern>
+<template>
+	<srai>ORANGE</srai>
+</template>
+</category>
 
-		<category>
-			<pattern>#PAY01</pattern>
-			<template>
-				<srai>ORANGE</srai>
-			</template>
-		</category>
+<category>
+<pattern>PAY01</pattern>
+<template>
+	<srai>ORANGE</srai>
+</template>
+</category>
 
-		<category>
-			<pattern>PAY01</pattern>
-			<template>
-				<srai>ORANGE</srai>
-			</template>
-		</category>
+<category>
+<pattern>01</pattern>
+<template>
+	<srai>ORANGE</srai>
+</template>
+</category>
 
-		<category>
-			<pattern>01</pattern>
-			<template>
-				<srai>ORANGE</srai>
-			</template>
-		</category>
+<category>
+<pattern>1</pattern>
+<template>
+	<srai>ORANGE</srai>
+</template>
+</category>
 
-		<category>
-			<pattern>1</pattern>
-			<template>
-				<srai>ORANGE</srai>
-			</template>
-		</category>
+<category>
+<pattern>MTN</pattern>
+<template>
+	<get name="congratulation" />
+</template>
+</category>
 
-		<category>
-			<pattern>MTN</pattern>
-			<template>
-				<get name="congratulation" />
-			</template>
-		</category>
+<category>
+<pattern>MTN MOBILE MONEY</pattern>
+<template>
+	<srai>MTN</srai>
+</template>
+</category>
 
-		<category>
-			<pattern>MTN MOBILE MONEY</pattern>
-			<template>
-				<srai>MTN</srai>
-			</template>
-		</category>
+<category>
+<pattern>MOBILE MONEY</pattern>
+<template>
+	<srai>MTN</srai>
+</template>
+</category>
 
-		<category>
-			<pattern>MOBILE MONEY</pattern>
-			<template>
-				<srai>MTN</srai>
-			</template>
-		</category>
+<category>
+<pattern>MOMO</pattern>
+<template>
+	<srai>MTN</srai>
+</template>
+</category>
 
-		<category>
-			<pattern>MOMO</pattern>
-			<template>
-				<srai>MTN</srai>
-			</template>
-		</category>
+<category>
+<pattern>#PAY02</pattern>
+<template>
+	<srai>MTN</srai>
+</template>
+</category>
 
-		<category>
-			<pattern>#PAY02</pattern>
-			<template>
-				<srai>MTN</srai>
-			</template>
-		</category>
+<category>
+<pattern>PAY02</pattern>
+<template>
+	<srai>MTN</srai>
+</template>
+</category>
 
-		<category>
-			<pattern>PAY02</pattern>
-			<template>
-				<srai>MTN</srai>
-			</template>
-		</category>
+<category>
+<pattern>02</pattern>
+<template>
+	<srai>MTN</srai>
+</template>
+</category>
 
-		<category>
-			<pattern>02</pattern>
-			<template>
-				<srai>MTN</srai>
-			</template>
-		</category>
+<category>
+<pattern>2</pattern>
+<template>
+	<srai>MTN</srai>
+</template>
+</category>
 
-		<category>
-			<pattern>2</pattern>
-			<template>
-				<srai>MTN</srai>
-			</template>
-		</category>
+<category>
+<pattern>MASTER</pattern>
+<template>
+	<get name="congratulation" />
+</template>
+</category>
 
-		<category>
-			<pattern>MASTER</pattern>
-			<template>
-				<get name="congratulation" />
-			</template>
-		</category>
+<category>
+<pattern>MASTER CARD</pattern>
+<template>
+	<srai>MASTER</srai>
+</template>
+</category>
 
-		<category>
-			<pattern>MASTER CARD</pattern>
-			<template>
-				<srai>MASTER</srai>
-			</template>
-		</category>
+<category>
+<pattern>#PAY03</pattern>
+<template>
+	<srai>MASTER</srai>
+</template>
+</category>
 
-		<category>
-			<pattern>#PAY03</pattern>
-			<template>
-				<srai>MASTER</srai>
-			</template>
-		</category>
+<category>
+<pattern>PAY03</pattern>
+<template>
+	<srai>MASTER</srai>
+</template>
+</category>
 
-		<category>
-			<pattern>PAY03</pattern>
-			<template>
-				<srai>MASTER</srai>
-			</template>
-		</category>
+<category>
+<pattern>03</pattern>
+<template>
+	<srai>MASTER</srai>
+</template>
+</category>
 
-		<category>
-			<pattern>03</pattern>
-			<template>
-				<srai>MASTER</srai>
-			</template>
-		</category>
+<category>
+<pattern>3</pattern>
+<template>
+	<srai>MASTER</srai>
+</template>
+</category>
 
-		<category>
-			<pattern>3</pattern>
-			<template>
-				<srai>MASTER</srai>
-			</template>
-		</category>
+<category>
+<pattern>VISA</pattern>
+<template>
+	<get name="congratulation" />
+</template>
+</category>
 
-		<category>
-			<pattern>VISA</pattern>
-			<template>
-				<get name="congratulation" />
-			</template>
-		</category>
+<category>
+<pattern>CARTE VISA</pattern>
+<template>
+	<srai>VISA</srai>
+</template>
+</category>
 
-		<category>
-			<pattern>CARTE VISA</pattern>
-			<template>
-				<srai>VISA</srai>
-			</template>
-		</category>
+<category>
+<pattern>#PAY04</pattern>
+<template>
+	<srai>VISA</srai>
+</template>
+</category>
 
-		<category>
-			<pattern>#PAY04</pattern>
-			<template>
-				<srai>VISA</srai>
-			</template>
-		</category>
+<category>
+<pattern>PAY04</pattern>
+<template>
+	<srai>VISA</srai>
+</template>
+</category>
 
-		<category>
-			<pattern>PAY04</pattern>
-			<template>
-				<srai>VISA</srai>
-			</template>
-		</category>
+<category>
+<pattern>04</pattern>
+<template>
+	<srai>VISA</srai>
+</template>
+</category>
 
-		<category>
-			<pattern>04</pattern>
-			<template>
-				<srai>VISA</srai>
-			</template>
-		</category>
+<category>
+<pattern>4</pattern>
+<template>
+	<srai>VISA</srai>
+</template>
+</category>
 
-		<category>
-			<pattern>4</pattern>
-			<template>
-				<srai>VISA</srai>
-			</template>
-		</category>
-
-		<category>
-			<pattern>*</pattern>
-			<template>Désolé, <star /> ne fait pas partie des moyens de payements que nous utilisons. Veuillez faire votre choix ici.
-				~<get name="payment_list" /></template>
-		</category>
-
-	</topic>
-
+<category>
+<pattern>*</pattern>
+<template>Désolé, <star /> ne fait pas partie des moyens de payements que nous utilisons. Veuillez faire votre choix ici.
+~<get name="payment_list" /></template>
+</category>
+	
+</topic>
+	
 </aiml>

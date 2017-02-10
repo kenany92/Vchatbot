@@ -1,0 +1,59 @@
+0,*,*,*,Je ne n'arrive pas à comprendre votre préoccupation. Pour l'instant#Comma nous offrons les services de Taxi et de Restauration<srai>INIT</srai>,salutation.aiml
+0,BONJOUR,*,*,Bonjour quel est votre prenom<srai>INIT</srai>,salutation.aiml
+0,BONSOIR,*,*,Bonjour quel est votre prenom<srai>INIT</srai>,salutation.aiml
+0,BONJOUR *,*,*,<srai>BONJOUR</srai>,salutation.aiml
+0,SALUT,*,*,<srai>BONJOUR</srai>,salutation.aiml
+0,SLT,*,*,<srai>BONJOUR</srai>,salutation.aiml
+0,* BONJOUR *,*,*,<srai>BONJOUR</srai>,salutation.aiml
+0,BONSOIR *,*,*,<srai>BONSOIR</srai>,salutation.aiml
+0,DATE,*,*,Date du jour: <date format="%A" jformat="EEEEEEEEEE"/> <date format="%B %d#Comma %Y" jformat="dd MMMMMMMMM YYYY"/>,salutation.aiml
+0,DATE DU JOUR,*,*,<srai>DATE</srai>,salutation.aiml
+0,AUJOURD'HUI,*,*,<srai>DATE</srai>,salutation.aiml
+0,*,BONJOUR QUEL EST VOTRE PRENOM,*,Bienvenu <star/>. Que puis-je faire pour vous?,salutation.aiml
+0,<SET>NAME</SET>,*,*,Bienvenu <map name="gendername"><star/></map>. <star/>. #Newline~Que puis-je faire pour vous?#Newline<think>#Newline	<set name="username"><star/></set>#Newline</think>,salutation.aiml
+0,ISANAME <SET>NAME</SET>,*,*,true,salutation.aiml
+0,ISANAME *,*,*,false,salutation.aiml
+0,ARE YOU *,*,*,<think><set name="isaname"><srai>ISANAME <star/></srai></set>#Newline</think>#Newline<condition name="isaname">#Newline<li value="true">WHAT IS YOUR NAME</li>#Newline<li>ARE YOU RESPONSE</li>#Newline</condition>,salutation.aiml
+0,GENDER OF <SET>NAME</SET>,*,*,Gender of <star/> is <map name="gendername"><star/></map>.,salutation.aiml
+0,I WAN <SET>SERVICE</SET>,*,*,false,salutation.aiml
+0,* TAXI *,*,*,<srai>TAXI</srai>,salutation.aiml
+0,* TAXI,*,*,<srai>TAXI</srai>,salutation.aiml
+0,TAXI *,*,*,<srai>TAXI</srai>,salutation.aiml
+0,DEPLACEMENT,*,*,<srai>TAXI</srai>,salutation.aiml
+0,DEPLACER,*,*,<srai>TAXI</srai>,salutation.aiml
+0,DEPLACE,*,*,<srai>TAXI</srai>,salutation.aiml
+0,DEPOT,*,*,<srai>TAXI</srai>,salutation.aiml
+0,* DEPLACER,*,*,<srai>TAXI</srai>,salutation.aiml
+0,* DEPLACER *,*,*,<srai>TAXI</srai>,salutation.aiml
+0,* ME DEPLACER,*,*,<srai>TAXI</srai>,salutation.aiml
+0,* ME DEPLACER *,*,*,<srai>TAXI</srai>,salutation.aiml
+0,* ME DEPLACE,*,*,<srai>TAXI</srai>,salutation.aiml
+0,* ME DEPLACE *,*,*,<srai>TAXI</srai>,salutation.aiml
+0,RESERVATION,*,*,<srai>TAXI</srai>,salutation.aiml
+0,RESERVER,*,*,<srai>TAXI</srai>,salutation.aiml
+0,* RESERVATION,*,*,<srai>TAXI</srai>,salutation.aiml
+0,RESERVATION *,*,*,<srai>TAXI</srai>,salutation.aiml
+0,* RESERVER,*,*,<srai>TAXI</srai>,salutation.aiml
+0,* RESERVER *,*,*,<srai>TAXI</srai>,salutation.aiml
+0,RESERVER *,*,*,<srai>TAXI</srai>,salutation.aiml
+0,TAXI,*,*,Le service Vairified Taxi est là pour ce genre de situation.#Newline~Dans quel quartier vous trouvez-vous?#Newline<think><set name="topic">taxi</set></think>,salutation.aiml
+0,* RESTAURATION *,*,*,<srai>MENU</srai>,salutation.aiml
+0,* RESTAURATION,*,*,<srai>MENU</srai>,salutation.aiml
+0,RESTAURATION *,*,*,<srai>MENU</srai>,salutation.aiml
+0,RESTAURATION,*,*,<srai>MENU</srai>,salutation.aiml
+0,* RESTAURANT *,*,*,<srai>MENU</srai>,salutation.aiml
+0,* RESTAURANT,*,*,<srai>MENU</srai>,salutation.aiml
+0,RESTAURANT *,*,*,<srai>MENU</srai>,salutation.aiml
+0,* MANGER *,*,*,<srai>MENU</srai>,salutation.aiml
+0,MANGER *,*,*,<srai>MENU</srai>,salutation.aiml
+0,* MANGER,*,*,<srai>MENU</srai>,salutation.aiml
+0,J'AI FAIM,*,*,<srai>MENU</srai>,salutation.aiml
+0,* COMMANDER * PLAT *,*,*,<srai>MENU</srai>,salutation.aiml
+0,COMMANDER * PLAT *,*,*,<srai>MENU</srai>,salutation.aiml
+0,* COMMANDER * NOURRITUE *,*,*,<srai>MENU</srai>,salutation.aiml
+0,* PLAT *,*,*,<srai>MENU</srai>,salutation.aiml
+0,* PLAT,*,*,<srai>MENU</srai>,salutation.aiml
+0,* NOURRITURE *,*,*,<srai>MENU</srai>,salutation.aiml
+0,NOURRITURE *,*,*,<srai>MENU</srai>,salutation.aiml
+0,* NOURRITURE,*,*,<srai>MENU</srai>,salutation.aiml
+0,RIEN,*,*,Nous sommes à votre entière disposition n'exitez pas à nous écrire si vous avez besoin de quelque chose.,salutation.aiml

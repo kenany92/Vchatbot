@@ -1,0 +1,147 @@
+Village:Douala
+Dakar:Douala
+Brazzaville:Douala
+Brazaville:Douala
+Akwa:Douala
+Deido:Douala
+Bonamoussadi:Douala
+Bonaberi:Douala
+Ndokoti:Douala
+Ndogbong:Douala
+Makepe:Douala
+Ndogpassi:Douala
+Ndog-passi:Douala
+Ndogpassi II:Douala
+Ndog-passi II:Douala
+Ndogpassi III:Douala
+Ndog-passi III:Douala
+Mbopi:Douala
+Akwa Nord:Douala
+Ange Raphael:Douala
+Bobongo:Douala
+Diboum:Douala
+Ngwele:Douala
+Mabanda:Douala
+Nkomba:Douala
+Besseke:Douala
+Bonambappe:Douala
+Sodiko:Douala
+Bonanjo:Douala
+Bonandjo:Douala
+Nkondo:Douala
+Bonadouma I:Douala
+Bonadouma II:Douala
+Bonapriso:Douala
+Priso:Douala
+Ngangue:Douala
+Aeroport:Douala
+Texaco Aeroport:Douala
+Texaco-Aeroport:Douala
+New Bell:Douala
+New-Bell:Douala
+Newbell:Douala
+Koumassi:Douala
+Bali:Douala
+Nkololoun:Douala
+Marche Nkololoun:Douala
+Marche-Nkololoun:Douala
+Marchenkololoun:Douala
+Congo:Douala
+Marche Congo:Douala
+Marche-Congo:Douala
+Marchecongo:Douala
+Marche Central:Douala
+Marche-Central:Douala
+Marchecentral:Douala
+Ngodi:Douala
+Boko:Douala
+Logbaba:Douala
+Log-Baba:Douala
+Bessengue:Douala
+Bonadibong:Douala
+Bonamikengue:Douala
+Bonakouamouang:Douala
+Nyalla:Douala
+Tergal:Douala
+Nkolminta:Douala
+Makepe Missoke:Douala
+Makepe Maturite:Douala
+Bepanda Camtel:Douala
+Bepanda Jourdain:Douala
+New Deido:Douala
+Makepe Yonyong:Douala
+Cite Sic:Douala
+Sic Cacao:Douala
+Oyack:Douala
+Cite Sicam:Douala
+Cite des Palmiers:Douala
+Bepanda Cacao Barry:Douala
+Bepanda Cacao Barre:Douala
+Bepanda Cacao Bary:Douala
+Bepanda Cacao Bare:Douala
+Pk8:Douala
+Pk14:Douala
+Pk17:Douala
+Ndogbati:Douala
+Ndogbati II:Douala
+Camp Yabassi:Douala
+Bonateki:Douala
+Bepanda Omnisport:Douala
+Bepanda Gentil:Douala
+
+Nkoldongo:Yaounde
+Nkolndongo:Yaounde
+Nkol-dongo:Yaounde
+Nkol-Ndongo:Yaounde
+Nkol Ewoue:Yaounde
+Nkolewoue:Yaounde
+Nkol Oliga:Yaounde
+Nkololiga:Yaounde
+Ngok Ekele:Yaounde
+Ngokekele:Yaounde
+Ngoa Ekele:Yaounde
+Ngoaekele:Yaounde
+Djoungolo:Yaounde
+Ntougou:Yaounde
+Biyem-assi:Yaounde
+Biyemassi:Yaounde
+Biyem assi:Yaounde
+Messa:Yaounde
+Melen:Yaounde
+Olezoa:Yaounde
+Kondengui:Yaounde
+Mvog Mbi:Yaounde
+Mvogmbi:Yaounde
+Mvog Atangana Mballa:Yaounde
+Mvogatanganamballa:Yaounde
+Mvogatangana Mablla:Yaounde
+Mvog atanganamballa:Yaounde
+Mvog Ada:Yaounde
+Mvogada:Yaounde
+Elig Essono:Yaounde
+Eligessono:Yaounde
+Elig Edzoua:Yaounde
+Eligedzoua:Yaounde
+Elig Effa:Yaounde
+Elig-Effa:Yaounde
+Eligeffa:Yaounde
+Etudi:Yaounde
+Etoudi:Yaounde
+Tsinga:Yaounde
+Etoa Meki:Yaounde
+Etoa-Meki:Yaounde
+Etoameki:Yaounde
+Mvog Ekoussou:Yaounde
+Mvogekoussou:Yaounde
+Mvog-Ekoussou:Yaounde
+Mokolo:Yaounde
+Bastos:Yaounde
+Ngousso:Yaounde
+Ndzong Melen:Yaounde
+Mvolye:Yaounde
+Essos:Yaounde
+Omnisport:Yaounde
+Nlongkak:Yaounde
+Mfou:Yaounde
+Mfoudasi:Yaounde
+Ekoudou:Yaounde

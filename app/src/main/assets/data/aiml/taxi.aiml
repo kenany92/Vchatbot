@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+	
+<topic name="taxi">
+	
+<category>
+<pattern><SET>QUARTIER</SET></pattern>
+<template>Vous etes à:
+~-ville: <set name="villefrom"><map name="quartierville"><star/></map></set>
+~-quartier: <set name="quartierfrom"><star/></set>
+~Quelle est votre destination?
+<think><set name="topic" >destination</set></think>
+</template>
+</category>
+
+<category>
+<pattern>* <SET>QUARTIER</SET></pattern>
+<template><srai><star index="2" /></srai></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<template><random>
+	<li>Désolé, je ne maitrise pas bien ce quartier. Est-il à Douala ou à Yaoundé?</li>
+	<li>Pour l'instant, le service Vairified Taxi n'est disponible que dans les villes de Douala et Yaoundé. Où se trouve votre quartier?</li>
+	</random>
+<think><set name="quartierfrom" ><star/></set></think>
+</template>
+</category>
+
+<category>
+<pattern><SET>VILLE</SET></pattern>
+<template>Vous etes à:
+~-ville: <set name="villefrom"><star/></set>
+<condition name="quartierfrom">
+<li value="unknown">
+~-quartier: <set name="quartierfrom"><star/></set>
+</li>
+<li>
+~-quartier: <get name="quartierfrom" />
+</li>
+</condition>
+~Quelle est votre destination?
+<think><set name="topic" >destination</set></think>
+</template>
+</category>
+
+<category>
+<pattern>A <SET>VILLE</SET></pattern>
+<template><srai><star /></srai></template>
+</category>
+
+<category>
+<pattern>* <SET>VILLE</SET></pattern>
+<template><srai><star index="2" /></srai></template>
+</category>
+
+</topic>
+
+<topic name="destination">
+	
+<category>
+<pattern><SET>QUARTIER</SET></pattern>
+<template>Votre destination:
+~-ville: <set name="villeto"><map name="quartierville"><star/></map></set>
+~-quartier: <set name="quartierto"><star/></set>
+~Pour combien de personnes voulez-vous reserver?
+<think><set name="topic" >conclusion</set></think>
+</template>
+</category>
+
+<category>
+<pattern>* <SET>QUARTIER</SET></pattern>
+<template><srai><star index="2" /></srai></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<template><random>
+	<li>Désolé, je ne maitrise pas bien ce quartier. Est-il à Douala ou à Yaoundé?</li>
+	<li>Pour l'instant, le service Vairified Taxi n'est disponible que dans les villes de Douala et Yaoundé. Où se trouve votre quartier?</li>
+	</random>
+<think><set name="quartierto" ><star/></set></think>
+</template>
+</category>
+
+<category>
+<pattern><SET>VILLE</SET></pattern>
+<template>Votre destination:
+~-ville: <set name="villeto"><star/></set>
+<condition name="quartierto">
+<li value="unknown">
+~-quartier: <set name="quartierto"><star/></set>
+</li>
+<li>
+~-quartier: <get name="quartierto" />
+</li>
+</condition>
+~Pour combien de personnes voulez-vous reserver?
+<think><set name="topic" >conclusion</set></think>
+</template>
+</category>
+
+<category>
+<pattern>A <SET>VILLE</SET></pattern>
+<template><srai><star /></srai></template>
+</category>
+
+<category>
+<pattern>* <SET>VILLE</SET></pattern>
+<template><srai><star index="2" /></srai></template>
+</category>
+
+<category>
+<pattern><SET>ERREUR</SET></pattern>
+<template>Ai-je fait une erreur?<think><set name="topic">annulation_taxi</set></think></template>
+</category>
+
+</topic>
+
+<topic name="annulation_taxi">
+	
+<category>
+<pattern>OUI</pattern>
+<template>le quartier ou la ville ne correspond pas</template>
+</category>
+
+<category>
+<pattern>OUI</pattern>
+<that>le quartier ou la ville ne correspond pas</that>
+<template>Vous etes dans quel quartier?<think><set name="topic" >taxi</set></think></template>
+</category>
+
+<category>
+<pattern>NON</pattern>
+<template>Voulez-vous annuler</template>
+</category>
+
+<category>
+<pattern>OUI</pattern>
+<that>Voulez-vous annuler</that>
+<template><srai>RIEN</srai></template>
+</category>
+
+<category>
+<pattern>NON</pattern>
+<that>Voulez-vous annuler</that>
+<template><formal><get name="username" /></formal> j'ai du mal à comprendre votre préoccupation</template>
+</category>
+
+</topic>
+
+<topic name="conclusion">
+	
+<category>
+<pattern><SET>TAXIDIGIT</SET></pattern>
+<template>Vous etes au nombre de: <set name="number"><star /></set>
+~Vous etes à: <get name="quartierfrom" />
+~Vous allez à: <get name="quartierto" />
+~Ce service vous coûtera: 3000 FCFA
+~<get name="payment_list" />
+<think><set name="topic">choosen_payment</set></think></template>
+</category>
+
+<category>
+<pattern><SET>TAXIDIGIT</SET> PERSONNES</pattern>
+<template><srai><star /></srai></template>
+</category>
+
+<category>
+<pattern>* <SET>TAXIDIGIT</SET> PERSONNES</pattern>
+<template><srai><star index="2" /></srai></template>
+</category>
+
+<category>
+<pattern>* <SET>TAXIDIGIT</SET> *</pattern>
+<template><srai><star index="2" /></srai></template>
+</category>
+
+<category>
+<pattern><SET>TAXIDIGITORDINAL</SET></pattern>
+<template><srai><map name="taxidigit"><star/></map></srai></template>
+</category>
+
+<category>
+<pattern><SET>TAXIDIGITORDINAL</SET> PERSONNES</pattern>
+<template><srai><map name="taxidigit"><star/></map></srai></template>
+</category>
+
+<category>
+<pattern>* <SET>TAXIDIGITORDINAL</SET> PERSONNES</pattern>
+<template><srai><map name="taxidigit"><star/></map></srai></template>
+</category>
+
+<category>
+<pattern>* <SET>TAXIDIGITORDINAL</SET> *</pattern>
+<template><srai><map name="taxidigit"><star/></map></srai></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<template>J'ai du mal à comprendre ce que vous voulez. Veuillez saisir un chiffre supérieur à 0 et inférieur ou egal à 6</template>
+</category>
+
+</topic>
+ 
+</aiml>

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+
+<category>
+<pattern>*</pattern>
+<template>Je ne n'arrive pas à comprendre votre préoccupation. Pour l'instant, nous offrons les services de Taxi et de Restauration<srai>INIT</srai></template>
+</category>
+
+<category>
+<pattern>BONJOUR</pattern>
+<template>Bonjour quel est votre prenom<srai>INIT</srai></template>
+</category>
+	
+<category>
+<pattern>BONSOIR</pattern>
+<template>Bonjour quel est votre prenom<srai>INIT</srai></template>
+</category>
+	
+<category>
+<pattern>BONJOUR *</pattern>
+<template>
+<srai>BONJOUR</srai>
+</template>
+</category>
+
+<category>
+<pattern>SALUT</pattern>
+<template>
+<srai>BONJOUR</srai>
+</template>
+</category>
+
+<category>
+<pattern>SLT</pattern>
+<template>
+<srai>BONJOUR</srai>
+</template>
+</category>
+
+<category>
+<pattern>* BONJOUR *</pattern>
+<template>
+<srai>BONJOUR</srai>
+</template>
+</category>
+	
+<category>
+<pattern>BONSOIR *</pattern>
+<template>
+<srai>BONSOIR</srai>
+</template>
+</category>
+
+<category>
+<pattern>DATE</pattern>
+<template>Date du jour: <date format="%A" jformat="EEEEEEEEEE"/> <date format="%B %d, %Y" jformat="dd MMMMMMMMM YYYY"/></template>
+</category>
+
+<category>
+<pattern>DATE DU JOUR</pattern>
+<template><srai>DATE</srai></template>
+</category>
+
+<category>
+<pattern>AUJOURD'HUI</pattern>
+<template><srai>DATE</srai></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Bonjour quel est votre prenom</that>
+<template>Bienvenu <star />. Que puis-je faire pour vous?</template>
+</category>
+
+<category>
+<pattern><SET>NAME</SET></pattern>
+<template>Bienvenu <map name="gendername"><star/></map>. <star />. 
+~Que puis-je faire pour vous?
+<think>
+	<set name="username"><star /></set>
+</think>
+</template>
+</category>
+
+<category><pattern>ISANAME <SET>NAME</SET></pattern>
+<template>true</template>
+</category>
+
+<category><pattern>ISANAME *</pattern>
+<template>false</template>
+</category>
+
+
+<category><pattern>ARE YOU * </pattern>
+<template><think><set name="isaname"><srai>ISANAME <star/></srai></set>
+</think>
+<condition name="isaname">
+<li value="true">WHAT IS YOUR NAME</li>
+<li>ARE YOU RESPONSE</li>
+</condition></template>
+</category>
+
+<category><pattern>GENDER OF <SET>NAME</SET></pattern>
+<template>Gender of <star/> is <map name="gendername"><star/></map>.</template>
+</category>
+
+<category>
+<pattern>I WAN <SET>SERVICE</SET></pattern>
+<template>false</template>
+</category>
+
+<category>
+<pattern>* TAXI *</pattern>
+<template><srai>TAXI</srai></template>
+</category>
+
+<category>
+<pattern>* TAXI</pattern>
+<template><srai>TAXI</srai></template>
+</category>
+
+<category>
+<pattern>TAXI *</pattern>
+<template><srai>TAXI</srai></template>
+</category>
+
+<category>
+<pattern>DEPLACEMENT</pattern>
+<template><srai>TAXI</srai></template>
+</category>
+
+<category>
+<pattern>DEPLACER</pattern>
+<template><srai>TAXI</srai></template>
+</category>
+
+<category>
+<pattern>DEPLACE</pattern>
+<template><srai>TAXI</srai></template>
+</category>
+
+<category>
+<pattern>DEPOT</pattern>
+<template><srai>TAXI</srai></template>
+</category>
+
+<category>
+<pattern>* DEPLACER</pattern>
+<template><srai>TAXI</srai></template>
+</category>
+
+<category>
+<pattern>* DEPLACER *</pattern>
+<template><srai>TAXI</srai></template>
+</category>
+
+<category>
+<pattern>* ME DEPLACER</pattern>
+<template><srai>TAXI</srai></template>
+</category>
+
+<category>
+<pattern>* ME DEPLACER *</pattern>
+<template><srai>TAXI</srai></template>
+</category>
+
+<category>
+<pattern>* ME DEPLACE</pattern>
+<template><srai>TAXI</srai></template>
+</category>
+
+<category>
+<pattern>* ME DEPLACE *</pattern>
+<template><srai>TAXI</srai></template>
+</category>
+
+<category>
+<pattern>RESERVATION</pattern>
+<template><srai>TAXI</srai></template>
+</category>
+
+<category>
+<pattern>RESERVER</pattern>
+<template><srai>TAXI</srai></template>
+</category>
+
+<category>
+<pattern>* RESERVATION</pattern>
+<template><srai>TAXI</srai></template>
+</category>
+
+<category>
+<pattern>RESERVATION *</pattern>
+<template><srai>TAXI</srai></template>
+</category>
+
+<category>
+<pattern>* RESERVER</pattern>
+<template><srai>TAXI</srai></template>
+</category>
+
+<category>
+<pattern>* RESERVER *</pattern>
+<template><srai>TAXI</srai></template>
+</category>
+
+<category>
+<pattern>RESERVER *</pattern>
+<template><srai>TAXI</srai></template>
+</category>
+
+<category>
+<pattern>TAXI</pattern>
+<template>Le service Vairified Taxi est là pour ce genre de situation.
+~Dans quel quartier vous trouvez-vous?
+<think><set name="topic" >taxi</set></think></template>
+</category>
+
+<category>
+<pattern>* RESTAURATION *</pattern>
+<template><srai>MENU</srai></template>
+</category>
+
+<category>
+<pattern>* RESTAURATION</pattern>
+<template><srai>MENU</srai></template>
+</category>
+
+<category>
+<pattern>RESTAURATION *</pattern>
+<template><srai>MENU</srai></template>
+</category>
+
+<category>
+<pattern>RESTAURATION</pattern>
+<template><srai>MENU</srai></template>
+</category>
+
+<category>
+<pattern>* RESTAURANT *</pattern>
+<template><srai>MENU</srai></template>
+</category>
+
+<category>
+<pattern>* RESTAURANT</pattern>
+<template><srai>MENU</srai></template>
+</category>
+
+<category>
+<pattern>RESTAURANT *</pattern>
+<template><srai>MENU</srai></template>
+</category>
+
+<category>
+<pattern>* MANGER *</pattern>
+<template><srai>MENU</srai></template>
+</category>
+
+<category>
+<pattern>MANGER *</pattern>
+<template><srai>MENU</srai></template>
+</category>
+
+<category>
+<pattern>* MANGER</pattern>
+<template><srai>MENU</srai></template>
+</category>
+
+<category>
+<pattern>J'AI FAIM</pattern>
+<template><srai>MENU</srai></template>
+</category>
+
+<category>
+<pattern>* COMMANDER * PLAT *</pattern>
+<template><srai>MENU</srai></template>
+</category>
+
+<category>
+<pattern>COMMANDER * PLAT *</pattern>
+<template><srai>MENU</srai></template>
+</category>
+
+<category>
+<pattern>* COMMANDER * NOURRITUE *</pattern>
+<template><srai>MENU</srai></template>
+</category>
+
+<category>
+<pattern>* PLAT *</pattern>
+<template><srai>MENU</srai></template>
+</category>
+
+<category>
+<pattern>* PLAT</pattern>
+<template><srai>MENU</srai></template>
+</category>
+
+<category>
+<pattern>* NOURRITURE *</pattern>
+<template><srai>MENU</srai></template>
+</category>
+
+<category>
+<pattern>NOURRITURE *</pattern>
+<template><srai>MENU</srai></template>
+</category>
+
+<category>
+<pattern>* NOURRITURE</pattern>
+<template><srai>MENU</srai></template>
+</category>
+
+<category>
+<pattern>RIEN</pattern>
+<template>Nous sommes à votre entière disposition n'exitez pas à nous écrire si vous avez besoin de quelque chose.</template>
+</category>
+	
+</aiml>

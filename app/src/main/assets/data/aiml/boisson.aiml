@@ -1,271 +1,271 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0.1" encoding="UTF-8">
 
-    <topic name="boisson">
+<topic name="boisson">
+	
+<category>
+<pattern>OUI</pattern>
+<template><get name="boisson_list" />
+	<think>
+		<set name="topic" >boisson_type</set>
+	</think>
+</template>
+</category>
 
-        <category>
-            <pattern>OUI</pattern>
-            <template><get name="boisson_list" />
-                <think>
-                    <set name="topic" >boisson_type</set>
-                </think>
-            </template>
-        </category>
+<category>
+<pattern>OK</pattern>
+<template><srai>OUI</srai></template>
+</category>
 
-        <category>
-            <pattern>OK</pattern>
-            <template><srai>OUI</srai></template>
-        </category>
+<category>
+<pattern>O</pattern>
+<template><srai>OUI</srai></template>
+</category>
 
-        <category>
-            <pattern>O</pattern>
-            <template><srai>OUI</srai></template>
-        </category>
+<category>
+<pattern>YES</pattern>
+<template><srai>OUI</srai></template>
+</category>
 
-        <category>
-            <pattern>YES</pattern>
-            <template><srai>OUI</srai></template>
-        </category>
+<category>
+<pattern>Y</pattern>
+<template><srai>OUI</srai></template>
+</category>
 
-        <category>
-            <pattern>Y</pattern>
-            <template><srai>OUI</srai></template>
-        </category>
+<category>
+<pattern>NON</pattern>
+<template>Votre commande: <get name="menu" /> <get name="complement" />
+~Prix: 1500 FCFA
+~<get name="payment_list" />
+	<think>
+		<set name="topic" >choosen_payment</set>
+	</think>
+	</template>
+</category>
 
-        <category>
-            <pattern>NON</pattern>
-            <template>Votre commande: <get name="menu" /> <get name="complement" />
-                ~Prix: 1500 FCFA
-                ~<get name="payment_list" />
-                <think>
-                    <set name="topic" >choosen_payment</set>
-                </think>
-            </template>
-        </category>
+<category>
+<pattern>NO</pattern>
+<template><srai>NON</srai></template>
+</category>
 
-        <category>
-            <pattern>NO</pattern>
-            <template><srai>NON</srai></template>
-        </category>
+<category>
+<pattern>N</pattern>
+<template><srai>NON</srai></template>
+</category>
 
-        <category>
-            <pattern>N</pattern>
-            <template><srai>NON</srai></template>
-        </category>
+<category>
+<pattern>*</pattern>
+<template>
+<random>
+<li>Je ne comprends pas votre choix. Vous devez saisir soit oui soit non.</li>
+<li>S'il vous plait, veuillez saisir soit oui soit non.</li>
+<li>Pour que votre demande soit facilement traitée, veuillez saisir soit oui soit non.</li>
+<li>Vouliez-vous dire oui?</li>
+</random>
+</template>
+</category>
 
-        <category>
-            <pattern>*</pattern>
-            <template>
-                <random>
-                    <li>Je ne comprends pas votre choix. Vous devez saisir soit oui soit non.</li>
-                    <li>S'il vous plait, veuillez saisir soit oui soit non.</li>
-                    <li>Pour que votre demande soit facilement traitée, veuillez saisir soit oui soit non.</li>
-                    <li>Vouliez-vous dire oui?</li>
-                </random>
-            </template>
-        </category>
+</topic>
+	
+<topic name="boisson_type">
+	
+<category>
+<pattern>BIERE</pattern>
+<template><set name="biere_list" >Nous avons 
+~#bie01: la Guiness, 
+~#bie02: la Ice, 
+~#bie03: Origin, 
+~#bie04: la Harp </set>
+<think>
+	<set name="boisson" >BIERE</set>
+	<set name="topic" >biere</set>
+</think>
+</template>
+</category>
 
-    </topic>
+<category>
+<pattern>BIERES</pattern>
+<template><srai>BIERE</srai></template>
+</category>
 
-    <topic name="boisson_type">
+<category>
+<pattern>#BOI01</pattern>
+<template><srai>BIERE</srai></template>
+</category>
 
-        <category>
-            <pattern>BIERE</pattern>
-            <template><set name="biere_list" >Nous avons
-                ~#bie01: la Guiness,
-                ~#bie02: la Ice,
-                ~#bie03: Origin,
-                ~#bie04: la Harp </set>
-                <think>
-                    <set name="boisson" >BIERE</set>
-                    <set name="topic" >biere</set>
-                </think>
-            </template>
-        </category>
+<category>
+<pattern>BOI01</pattern>
+<template><srai>BIERE</srai></template>
+</category>
 
-        <category>
-            <pattern>BIERES</pattern>
-            <template><srai>BIERE</srai></template>
-        </category>
+<category>
+<pattern>01</pattern>
+<template><srai>BIERE</srai></template>
+</category>
 
-        <category>
-            <pattern>#BOI01</pattern>
-            <template><srai>BIERE</srai></template>
-        </category>
+<category>
+<pattern>1</pattern>
+<template><srai>BIERE</srai></template>
+</category>
 
-        <category>
-            <pattern>BOI01</pattern>
-            <template><srai>BIERE</srai></template>
-        </category>
+<category>
+<pattern>BOISSON 01</pattern>
+<template><srai>BIERE</srai></template>
+</category>
 
-        <category>
-            <pattern>01</pattern>
-            <template><srai>BIERE</srai></template>
-        </category>
+<category>
+<pattern>BOISSON 1</pattern>
+<template><srai>BIERE</srai></template>
+</category>
 
-        <category>
-            <pattern>1</pattern>
-            <template><srai>BIERE</srai></template>
-        </category>
+<category>
+<pattern>VIN</pattern>
+<template><set name="biere_list" >Nous avons: 
+~#vin01: le Chateau Rouge, 
+~#vin02: le Chateau Blanc, 
+~#vin03: le Gandia, 
+~#vin04: le Matango</set>
+<think>
+	<set name="boisson" >VIN</set>
+	<set name="topic" >vin</set>
+</think>
+</template>
+</category>
 
-        <category>
-            <pattern>BOISSON 01</pattern>
-            <template><srai>BIERE</srai></template>
-        </category>
+<category>
+<pattern>VINS</pattern>
+<template><srai>VIN</srai></template>
+</category>
 
-        <category>
-            <pattern>BOISSON 1</pattern>
-            <template><srai>BIERE</srai></template>
-        </category>
+<category>
+<pattern>#BOI02</pattern>
+<template><srai>VIN</srai></template>
+</category>
 
-        <category>
-            <pattern>VIN</pattern>
-            <template><set name="biere_list" >Nous avons:
-                ~#vin01: le Chateau Rouge,
-                ~#vin02: le Chateau Blanc,
-                ~#vin03: le Gandia,
-                ~#vin04: le Matango</set>
-                <think>
-                    <set name="boisson" >VIN</set>
-                    <set name="topic" >vin</set>
-                </think>
-            </template>
-        </category>
+<category>
+<pattern>BOI02</pattern>
+<template><srai>VIN</srai></template>
+</category>
 
-        <category>
-            <pattern>VINS</pattern>
-            <template><srai>VIN</srai></template>
-        </category>
+<category>
+<pattern>02</pattern>
+<template><srai>VIN</srai></template>
+</category>
 
-        <category>
-            <pattern>#BOI02</pattern>
-            <template><srai>VIN</srai></template>
-        </category>
+<category>
+<pattern>2</pattern>
+<template><srai>VIN</srai></template>
+</category>
 
-        <category>
-            <pattern>BOI02</pattern>
-            <template><srai>VIN</srai></template>
-        </category>
+<category>
+<pattern>BOISSON 02</pattern>
+<template><srai>VIN</srai></template>
+</category>
 
-        <category>
-            <pattern>02</pattern>
-            <template><srai>VIN</srai></template>
-        </category>
+<category>
+<pattern>BOISSON 2</pattern>
+<template><srai>VIN</srai></template>
+</category>
 
-        <category>
-            <pattern>2</pattern>
-            <template><srai>VIN</srai></template>
-        </category>
+<category>
+<pattern>JUS</pattern>
+<template><set name="biere_list" >Nous avons: 
+~#jus01: le Coca, 
+~#jus02: le Djino, 
+~#jus03: la Fanta, 
+~#jus04: l'Orangina</set>
+<think>
+	<set name="boisson" >JUS</set>
+	<set name="topic" >jus</set>
+</think>
+</template>
+</category>
 
-        <category>
-            <pattern>BOISSON 02</pattern>
-            <template><srai>VIN</srai></template>
-        </category>
+<category>
+<pattern>JU</pattern>
+<template><srai>JUS</srai></template>
+</category>
 
-        <category>
-            <pattern>BOISSON 2</pattern>
-            <template><srai>VIN</srai></template>
-        </category>
+<category>
+<pattern>#BOI03</pattern>
+<template><srai>JUS</srai></template>
+</category>
 
-        <category>
-            <pattern>JUS</pattern>
-            <template><set name="biere_list" >Nous avons:
-                ~#jus01: le Coca,
-                ~#jus02: le Djino,
-                ~#jus03: la Fanta,
-                ~#jus04: l'Orangina</set>
-                <think>
-                    <set name="boisson" >JUS</set>
-                    <set name="topic" >jus</set>
-                </think>
-            </template>
-        </category>
+<category>
+<pattern>BOI03</pattern>
+<template><srai>JUS</srai></template>
+</category>
 
-        <category>
-            <pattern>JU</pattern>
-            <template><srai>JUS</srai></template>
-        </category>
+<category>
+<pattern>03</pattern>
+<template><srai>JUS</srai></template>
+</category>
 
-        <category>
-            <pattern>#BOI03</pattern>
-            <template><srai>JUS</srai></template>
-        </category>
+<category>
+<pattern>3</pattern>
+<template><srai>JUS</srai></template>
+</category>
 
-        <category>
-            <pattern>BOI03</pattern>
-            <template><srai>JUS</srai></template>
-        </category>
+<category>
+<pattern>BOISSON 03</pattern>
+<template><srai>JUS</srai></template>
+</category>
 
-        <category>
-            <pattern>03</pattern>
-            <template><srai>JUS</srai></template>
-        </category>
+<category>
+<pattern>BOISSON 3</pattern>
+<template><srai>JUS</srai></template>
+</category>
 
-        <category>
-            <pattern>3</pattern>
-            <template><srai>JUS</srai></template>
-        </category>
+<category>
+<pattern>WISKY</pattern>
+<template><set name="biere_list" >Nous avons le 
+~#wis01: Lion d'or, 
+~#wis02: le Fighter, 
+~#wis03: le RedBull, 
+~#wis04: le Fofo</set>
+<think>
+	<set name="boisson" >WISKY</set>
+	<set name="topic" >wisky</set>
+</think>
+</template>
+</category>
 
-        <category>
-            <pattern>BOISSON 03</pattern>
-            <template><srai>JUS</srai></template>
-        </category>
+<category>
+<pattern>#BOI04</pattern>
+<template><srai>WISKY</srai></template>
+</category>
 
-        <category>
-            <pattern>BOISSON 3</pattern>
-            <template><srai>JUS</srai></template>
-        </category>
+<category>
+<pattern>BOI04</pattern>
+<template><srai>WISKY</srai></template>
+</category>
 
-        <category>
-            <pattern>WISKY</pattern>
-            <template><set name="biere_list" >Nous avons le
-                ~#wis01: Lion d'or,
-                ~#wis02: le Fighter,
-                ~#wis03: le RedBull,
-                ~#wis04: le Fofo</set>
-                <think>
-                    <set name="boisson" >WISKY</set>
-                    <set name="topic" >wisky</set>
-                </think>
-            </template>
-        </category>
+<category>
+<pattern>04</pattern>
+<template><srai>WISKY</srai></template>
+</category>
 
-        <category>
-            <pattern>#BOI04</pattern>
-            <template><srai>WISKY</srai></template>
-        </category>
+<category>
+<pattern>4</pattern>
+<template><srai>WISKY</srai></template>
+</category>
 
-        <category>
-            <pattern>BOI04</pattern>
-            <template><srai>WISKY</srai></template>
-        </category>
+<category>
+<pattern>BOISSON 04</pattern>
+<template><srai>WISKY</srai></template>
+</category>
 
-        <category>
-            <pattern>04</pattern>
-            <template><srai>WISKY</srai></template>
-        </category>
+<category>
+<pattern>BOISSON 4</pattern>
+<template><srai>WISKY</srai></template>
+</category>
 
-        <category>
-            <pattern>4</pattern>
-            <template><srai>WISKY</srai></template>
-        </category>
+<category>
+<pattern>*</pattern>
+<template>Désolé, <star /> ne fait pas partie des boissons que nous avons. Veuillez faire votre choix ici.
+~<get name="boisson_list" /></template>
+</category>
 
-        <category>
-            <pattern>BOISSON 04</pattern>
-            <template><srai>WISKY</srai></template>
-        </category>
-
-        <category>
-            <pattern>BOISSON 4</pattern>
-            <template><srai>WISKY</srai></template>
-        </category>
-
-        <category>
-            <pattern>*</pattern>
-            <template>Désolé, <star /> ne fait pas partie des boissons que nous avons. Veuillez faire votre choix ici.
-                ~<get name="boisson_list" /></template>
-        </category>
-
-    </topic>
+</topic>
 
 </aiml>

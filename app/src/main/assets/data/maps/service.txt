@@ -1,0 +1,6 @@
+vairified:taxi
+deplacement:taxi
+restaurant:restauration
+manger:restauration
+menu:restauration
+faim:restauration
